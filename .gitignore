@@ -144,4 +144,4 @@ checkpoints
 *.ckpt
 *.bin
 
-
+.env
