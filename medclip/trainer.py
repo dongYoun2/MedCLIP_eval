@@ -90,8 +90,9 @@ class Trainer:
             optimizers.append(optimizer)
             schedulers.append(scheduler_obj)
 
-        # map models to devices
-        model = model.cuda()
+        # map models to devices: prefer CUDA else CPU
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        model = model.to(device)
 
         # execute training on multiple GPUs
         global_step = 0

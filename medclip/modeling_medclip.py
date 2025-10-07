@@ -142,11 +142,16 @@ class MedCLIPModel(nn.Module):
         logit_scale_init_value=0.07,
         ) -> None:
         super().__init__()
+        # device: prefer CUDA else CPU
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         text_proj_bias = False
         assert vision_model in REGISTRY.keys(), f'vision_model should be one of {REGISTRY.keys()}'
 
         self.vision_model = REGISTRY[vision_model](checkpoint=vision_checkpoint)
         self.text_model = MedCLIPTextModel(proj_bias=False)
+        # move submodules to device
+        self.vision_model.to(self.device)
+        self.text_model.to(self.device)
 
         # learnable temperature for contrastive loss
         self.logit_scale = nn.Parameter(torch.log(torch.tensor(1/logit_scale_init_value, dtype=torch.float32)))
@@ -228,6 +233,7 @@ class MedCLIPModel(nn.Module):
 
     def encode_image(self, pixel_values=None):
         # image encoder
+        pixel_values = pixel_values.to(self.device)
         vision_output = self.vision_model(pixel_values=pixel_values)
         img_embeds = vision_output / vision_output.norm(dim=-1, keepdim=True)
         return img_embeds
