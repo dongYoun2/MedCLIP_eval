@@ -59,11 +59,7 @@ class MedCLIPVisionModel(nn.Module):
         num_fts = self.model.fc.in_features
         self.model.fc = nn.Linear(num_fts, 512, bias=False) # projection head
         if checkpoint is not None:
-<<<<<<< HEAD
-            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location='cpu')
-=======
             state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
->>>>>>> origin
             missing_keys, unexpected_keys = self.load_state_dict(state_dict, strict=False)
             print('missing keys:', missing_keys)
             print('unexpected keys:', unexpected_keys)
@@ -74,11 +70,7 @@ class MedCLIPVisionModel(nn.Module):
     def load_from_medclip(self, checkpoint):
         '''handle key mismatch of medclip and the vision encoder.
         '''
-<<<<<<< HEAD
-        state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location='cpu')
-=======
         state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
->>>>>>> origin
         new_state_dict = {}
         for key in state_dict.keys():
             if 'vision_model' in key:
@@ -110,11 +102,7 @@ class MedCLIPVisionModelViT(nn.Module):
         self.model = AutoModel.from_pretrained(self.vit_type)
         self.projection_head = nn.Linear(768, 512, bias=False)
         if checkpoint is not None:
-<<<<<<< HEAD
-            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location='cpu')
-=======
             state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
->>>>>>> origin
             missing_keys, unexpected_keys = self.load_state_dict(state_dict, strict=False)
             print('missing keys:', missing_keys)
             print('unexpected keys:', unexpected_keys)
@@ -125,11 +113,7 @@ class MedCLIPVisionModelViT(nn.Module):
     def load_from_medclip(self, checkpoint):
         '''handle key mismatch of medclip and the vision encoder.
         '''
-<<<<<<< HEAD
-        state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location='cpu')
-=======
         state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
->>>>>>> origin
         new_state_dict = {}
         for key in state_dict.keys():
             if 'vision_model' in key:
@@ -173,11 +157,7 @@ class MedCLIPModel(nn.Module):
         self.logit_scale = nn.Parameter(torch.log(torch.tensor(1/logit_scale_init_value, dtype=torch.float32)))
 
         if checkpoint is not None:
-<<<<<<< HEAD
-            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location='cpu')
-=======
             state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
->>>>>>> origin
             self.load_state_dict(state_dict)
             print('load model weight from:', checkpoint)
 
@@ -230,10 +210,6 @@ class MedCLIPModel(nn.Module):
             zipf.close()
             print('\n Download pretrained model from:', pretrained_url)
 
-<<<<<<< HEAD
-        state_dict = torch.load(os.path.join(input_dir, constants.WEIGHTS_NAME), map_location='cpu')
-        self.load_state_dict(state_dict, strict=False)
-=======
         # Create the model instance
         model = cls(vision_model=vision_model, **kwargs)
 
@@ -243,7 +219,6 @@ class MedCLIPModel(nn.Module):
 
         model.to(device)
         print(f'Model moved to {device}')
->>>>>>> origin
         print('load model weight from:', input_dir)
 
         return model
@@ -320,21 +295,12 @@ class PromptClassifier(nn.Module):
         '''take image pixel values (after transform) and prompt_inputs
         (a dict of {'class1':{'input_ids':...,'attention_mask':,...}), 'class2':...}
         '''
-<<<<<<< HEAD
-        device = self.model.device if hasattr(self.model, 'device') else next(self.model.parameters()).device
-        pixel_values = pixel_values.to(device)
-=======
         pixel_values = pixel_values.to(self.device)
->>>>>>> origin
         class_similarities = []
         class_names = []
         for cls_name, cls_text in prompt_inputs.items():
             inputs = {'pixel_values':pixel_values}
-<<<<<<< HEAD
-            for k in cls_text.keys(): inputs[k] = cls_text[k].to(device)
-=======
             for k in cls_text.keys(): inputs[k] = cls_text[k].to(self.device)
->>>>>>> origin
 
             # TODO:
             # take soft mask over class_prompts to reach the similarities to classes
@@ -400,23 +366,14 @@ class SuperviseClassifier(nn.Module):
         **kwargs,
         ):
         outputs = defaultdict()
-<<<<<<< HEAD
-        device = next(self.model.parameters()).device
-        pixel_values = pixel_values.to(device)
-=======
         pixel_values = pixel_values.to(self.device)
->>>>>>> origin
         # take embeddings before the projection head
         img_embeds = self.model(pixel_values, project=False)
         logits = self.fc(img_embeds)
         outputs['embedding'] = img_embeds
         outputs['logits'] = logits
         if labels is not None and return_loss:
-<<<<<<< HEAD
-            labels = labels.to(device).float()
-=======
             labels = labels.to(self.device).float()
->>>>>>> origin
             if len(labels.shape) == 1: labels = labels.view(-1,1)
             if self.mode == 'multiclass': labels = labels.flatten().long()
             loss = self.loss_fn(logits, labels)
@@ -493,21 +450,12 @@ class PromptTuningClassifier(nn.Module):
         '''take image pixel values (after transform) and prompt_inputs
         (a dict of {'class1':{'input_ids':...,'attention_mask':,...}), 'class2':...}
         '''
-<<<<<<< HEAD
-        device = self.model.device if hasattr(self.model, 'device') else next(self.model.parameters()).device
-        pixel_values = pixel_values.to(device)
-=======
         pixel_values = pixel_values.to(self.model.device)
->>>>>>> origin
         class_similarities = []
         class_names = []
         for cls_name, cls_text in prompt_inputs.items():
             inputs = {'pixel_values':pixel_values}
-<<<<<<< HEAD
-            for k in cls_text.keys(): inputs[k] = cls_text[k].to(device)
-=======
             for k in cls_text.keys(): inputs[k] = cls_text[k].to(self.model.device)
->>>>>>> origin
 
             # TODO:
             # take soft mask over class_prompts to reach the similarities to classes
@@ -530,11 +478,7 @@ class PromptTuningClassifier(nn.Module):
         }
 
         if labels is not None and return_loss:
-<<<<<<< HEAD
-            labels = labels.to(device).float()
-=======
             labels = labels.to(self.model.device).float()
->>>>>>> origin
             if len(labels.shape) == 1: labels = labels.view(-1,1)
             if self.mode in ['multiclass', 'binary']: labels = labels.flatten().long()
             loss = self.loss_fn(class_similarities, labels)
