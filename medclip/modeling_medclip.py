@@ -2,9 +2,8 @@ import pdb
 import os
 import copy
 from collections import defaultdict
-from typing import Union
-
 import requests
+
 import torch
 from torch import nn
 from transformers import AutoModel, AutoTokenizer
@@ -12,11 +11,6 @@ import numpy as np
 import torchvision
 
 from . import constants
-
-REGISTRY = {}
-def register(name):
-    def deco(cls): REGISTRY[name] = cls; return cls
-    return deco
 
 class MedCLIPTextModel(nn.Module):
     def __init__(self,
@@ -48,7 +42,6 @@ class MedCLIPTextModel(nn.Module):
         embed = self.projection_head(embed)
         return embed
 
-@register('resnet')
 class MedCLIPVisionModel(nn.Module):
     '''
     take resnet50 as backbone.
@@ -59,7 +52,7 @@ class MedCLIPVisionModel(nn.Module):
         num_fts = self.model.fc.in_features
         self.model.fc = nn.Linear(num_fts, 512, bias=False) # projection head
         if checkpoint is not None:
-            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
+            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME))
             missing_keys, unexpected_keys = self.load_state_dict(state_dict, strict=False)
             print('missing keys:', missing_keys)
             print('unexpected keys:', unexpected_keys)
@@ -70,7 +63,7 @@ class MedCLIPVisionModel(nn.Module):
     def load_from_medclip(self, checkpoint):
         '''handle key mismatch of medclip and the vision encoder.
         '''
-        state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
+        state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME))
         new_state_dict = {}
         for key in state_dict.keys():
             if 'vision_model' in key:
@@ -88,7 +81,6 @@ class MedCLIPVisionModel(nn.Module):
         img_embeds = self.model(pixel_values)
         return img_embeds
 
-@register('vit')
 class MedCLIPVisionModelViT(nn.Module):
     '''take an VIT model as the backbone.
     '''
@@ -102,7 +94,7 @@ class MedCLIPVisionModelViT(nn.Module):
         self.model = AutoModel.from_pretrained(self.vit_type)
         self.projection_head = nn.Linear(768, 512, bias=False)
         if checkpoint is not None:
-            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
+            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME))
             missing_keys, unexpected_keys = self.load_state_dict(state_dict, strict=False)
             print('missing keys:', missing_keys)
             print('unexpected keys:', unexpected_keys)
@@ -113,7 +105,7 @@ class MedCLIPVisionModelViT(nn.Module):
     def load_from_medclip(self, checkpoint):
         '''handle key mismatch of medclip and the vision encoder.
         '''
-        state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
+        state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME))
         new_state_dict = {}
         for key in state_dict.keys():
             if 'vision_model' in key:
@@ -136,66 +128,45 @@ class MedCLIPVisionModelViT(nn.Module):
 
 class MedCLIPModel(nn.Module):
     def __init__(self,
-        vision_model='resnet',
+        vision_cls=MedCLIPVisionModel,
         checkpoint=None,
         vision_checkpoint=None,
         logit_scale_init_value=0.07,
         ) -> None:
         super().__init__()
-        # device: prefer CUDA else CPU
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         text_proj_bias = False
-        assert vision_model in REGISTRY.keys(), f'vision_model should be one of {REGISTRY.keys()}'
+        assert vision_cls in [MedCLIPVisionModel, MedCLIPVisionModelViT], 'vision_cls should be one of [MedCLIPVisionModel, MedCLIPVisionModelViT]'
 
-        self.vision_model = REGISTRY[vision_model](checkpoint=vision_checkpoint)
+        self.vision_model = vision_cls(checkpoint=vision_checkpoint)
         self.text_model = MedCLIPTextModel(proj_bias=False)
-        # move submodules to device
-        self.vision_model.to(self.device)
-        self.text_model.to(self.device)
 
         # learnable temperature for contrastive loss
-        self.logit_scale = nn.Parameter(torch.log(torch.tensor(1/logit_scale_init_value, dtype=torch.float32)))
+        self.logit_scale = nn.Parameter(torch.log(torch.tensor(1/logit_scale_init_value)))
 
         if checkpoint is not None:
-            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME), map_location="cpu")
+            state_dict = torch.load(os.path.join(checkpoint, constants.WEIGHTS_NAME))
             self.load_state_dict(state_dict)
             print('load model weight from:', checkpoint)
 
-
-    @property
-    def device(self) -> torch.device:
-        return next(self.parameters()).device
-
-
-    @classmethod
-    def from_pretrained(cls, vision_model: str='resnet', device: Union[str, torch.device]='cpu', input_dir=None, **kwargs):
+    def from_pretrained(self, input_dir=None):
         '''
-        Class method to create and load a pretrained MedCLIP model.
-
-        Args:
-            vision_model (str): 'resnet' or 'vit'
-            device (str): 'cpu', 'cuda', 'mps'
-            input_dir: Directory to load/download pretrained weights. If None, will be set based on vision_model
-            **kwargs: Additional arguments to pass to the MedCLIPModel constructor (e.g., logit_scale_init_value)
-
-        Returns:
-            MedCLIPModel: Initialized model with pretrained weights
+        If input_dir is None, download pretrained weight from google cloud and load.
         '''
         import wget
         import zipfile
-
-        # Determine pretrained URL and directory based on vision_model
         pretrained_url = None
-        if vision_model == 'resnet':
+        if isinstance(self.vision_model, MedCLIPVisionModel):
+            # resnet
             pretrained_url = constants.PRETRAINED_URL_MEDCLIP_RESNET
             if input_dir is None:
-                input_dir = 'pretrained/medclip-resnet'
-        elif vision_model == 'vit':
+                input_dir = './pretrained/medclip-resnet'
+        elif isinstance(self.vision_model, MedCLIPVisionModelViT):
+            # ViT
             pretrained_url = constants.PRETRAINED_URL_MEDCLIP_VIT
             if input_dir is None:
-                input_dir = 'pretrained/medclip-vit'
+                input_dir = './pretrained/medclip-vit'
         else:
-            raise ValueError(f'We only have pretrained weight for MedCLIP-ViT or MedCLIP-ResNet, get {vision_model} instead.')
+            raise ValueError(f'We only have pretrained weight for MedCLIP-ViT or MedCLIP-ResNet, get {type(self.vision_model)} instead.')
 
         if not os.path.exists(input_dir):
             os.makedirs(input_dir)
@@ -209,31 +180,21 @@ class MedCLIPModel(nn.Module):
             zipf.extractall(input_dir)
             zipf.close()
             print('\n Download pretrained model from:', pretrained_url)
-
-        # Create the model instance
-        model = cls(vision_model=vision_model, **kwargs)
-
-        # Load the pretrained weights
-        state_dict = torch.load(os.path.join(input_dir, constants.WEIGHTS_NAME), map_location="cpu")
-        model.load_state_dict(state_dict, strict=False)
-
-        model.to(device)
-        print(f'Model moved to {device}')
+        
+        state_dict = torch.load(os.path.join(input_dir, constants.WEIGHTS_NAME))
+        self.load_state_dict(state_dict)
         print('load model weight from:', input_dir)
 
-        return model
-
     def encode_text(self, input_ids=None, attention_mask=None):
-        input_ids = input_ids.to(self.device)
+        input_ids = input_ids.cuda()
         if attention_mask is not None:
-            attention_mask = attention_mask.to(self.device)
+            attention_mask = attention_mask.cuda()
         text_embeds = self.text_model(input_ids, attention_mask)
         text_embeds = text_embeds / text_embeds.norm(dim=-1, keepdim=True)
         return text_embeds
 
     def encode_image(self, pixel_values=None):
         # image encoder
-        pixel_values = pixel_values.to(self.device)
         vision_output = self.vision_model(pixel_values=pixel_values)
         img_embeds = vision_output / vision_output.norm(dim=-1, keepdim=True)
         return img_embeds
@@ -245,10 +206,10 @@ class MedCLIPModel(nn.Module):
         return_loss=None,
         **kwargs,
         ):
-        input_ids = input_ids.to(self.device)
+        input_ids = input_ids.cuda()
         if attention_mask is not None:
-            attention_mask = attention_mask.to(self.device)
-        pixel_values = pixel_values.to(self.device)
+            attention_mask = attention_mask.cuda()
+        pixel_values = pixel_values.cuda()
 
         img_embeds = self.encode_image(pixel_values)
         text_embeds = self.encode_text(input_ids, attention_mask)
@@ -278,7 +239,6 @@ class MedCLIPModel(nn.Module):
     def contrastive_loss(self, logits: torch.Tensor) -> torch.Tensor:
         return nn.functional.cross_entropy(logits, torch.arange(len(logits), device=logits.device))
 
-
 class PromptClassifier(nn.Module):
     '''take MedCLIP model with prompts for zero-shot classification
     '''
@@ -287,20 +247,16 @@ class PromptClassifier(nn.Module):
         self.model = medclip_model
         self.ensemble = ensemble
 
-    @property
-    def device(self) -> torch.device:
-        return self.model.device
-
     def forward(self, pixel_values=None, prompt_inputs=None, **kwargs):
         '''take image pixel values (after transform) and prompt_inputs
         (a dict of {'class1':{'input_ids':...,'attention_mask':,...}), 'class2':...}
         '''
-        pixel_values = pixel_values.to(self.device)
+        pixel_values = pixel_values.cuda()
         class_similarities = []
         class_names = []
         for cls_name, cls_text in prompt_inputs.items():
             inputs = {'pixel_values':pixel_values}
-            for k in cls_text.keys(): inputs[k] = cls_text[k].to(self.device)
+            for k in cls_text.keys(): inputs[k] = cls_text[k].cuda()
 
             # TODO:
             # take soft mask over class_prompts to reach the similarities to classes
@@ -354,11 +310,6 @@ class SuperviseClassifier(nn.Module):
             self.loss_fn = nn.BCEWithLogitsLoss()
             self.fc = nn.Linear(input_dim, 1)
 
-
-    @property
-    def device(self) -> torch.device:
-        return self.model.device
-
     def forward(self,
         pixel_values,
         labels=None,
@@ -366,14 +317,14 @@ class SuperviseClassifier(nn.Module):
         **kwargs,
         ):
         outputs = defaultdict()
-        pixel_values = pixel_values.to(self.device)
+        pixel_values = pixel_values.cuda()
         # take embeddings before the projection head
         img_embeds = self.model(pixel_values, project=False)
         logits = self.fc(img_embeds)
         outputs['embedding'] = img_embeds
         outputs['logits'] = logits
         if labels is not None and return_loss:
-            labels = labels.to(self.device).float()
+            labels = labels.cuda().float()
             if len(labels.shape) == 1: labels = labels.view(-1,1)
             if self.mode == 'multiclass': labels = labels.flatten().long()
             loss = self.loss_fn(logits, labels)
@@ -450,12 +401,12 @@ class PromptTuningClassifier(nn.Module):
         '''take image pixel values (after transform) and prompt_inputs
         (a dict of {'class1':{'input_ids':...,'attention_mask':,...}), 'class2':...}
         '''
-        pixel_values = pixel_values.to(self.model.device)
+        pixel_values = pixel_values.cuda()
         class_similarities = []
         class_names = []
         for cls_name, cls_text in prompt_inputs.items():
             inputs = {'pixel_values':pixel_values}
-            for k in cls_text.keys(): inputs[k] = cls_text[k].to(self.model.device)
+            for k in cls_text.keys(): inputs[k] = cls_text[k].cuda()
 
             # TODO:
             # take soft mask over class_prompts to reach the similarities to classes
@@ -478,7 +429,7 @@ class PromptTuningClassifier(nn.Module):
         }
 
         if labels is not None and return_loss:
-            labels = labels.to(self.model.device).float()
+            labels = labels.cuda().float()
             if len(labels.shape) == 1: labels = labels.view(-1,1)
             if self.mode in ['multiclass', 'binary']: labels = labels.flatten().long()
             loss = self.loss_fn(class_similarities, labels)
