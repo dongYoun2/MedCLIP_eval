@@ -15,6 +15,7 @@ dependencies:
   - pytorch>=1.12.1
   - torchvision>=0.13.1
   - notebook
+  - ipywidgets
   - pip
   - pip:
     - wget

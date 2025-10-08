@@ -26,39 +26,35 @@ pip install medclip
 ## Three lines to get pretrained MedCLIP models
 
 ```python
-from medclip import MedCLIPModel, MedCLIPVisionModelViT, MedCLIPVisionModel
+from medclip import MedCLIPModel
 
 # load MedCLIP-ResNet50
-model = MedCLIPModel(vision_cls=MedCLIPVisionModel)
-model.from_pretrained()
+model = MedCLIPModel.from_pretrained(vision_model='resnet', device='cpu')
 
 # load MedCLIP-ViT
-model = MedCLIPModel(vision_cls=MedCLIPVisionModelViT)
-model.from_pretrained()
+model = MedCLIPModel.from_pretrained(vision_model='vit', device='cpu')
 ```
 
 ## As simple as using CLIP
 
 ```python
-from medclip import MedCLIPModel, MedCLIPVisionModelViT
+from medclip import MedCLIPModel
 from medclip import MedCLIPProcessor
 from PIL import Image
 
 # prepare for the demo image and texts
 processor = MedCLIPProcessor()
-image = Image.open('./example_data/view1_frontal.jpg')
+image = Image.open('example_data/view1_frontal.jpg')
 inputs = processor(
-    text=["lungs remain severely hyperinflated with upper lobe emphysema", 
-        "opacity left costophrenic angle is new since prior exam ___ represent some loculated fluid cavitation unlikely"], 
-    images=image, 
-    return_tensors="pt", 
+    text=["lungs remain severely hyperinflated with upper lobe emphysema",
+        "opacity left costophrenic angle is new since prior exam ___ represent some loculated fluid cavitation unlikely"],
+    images=image,
+    return_tensors="pt",
     padding=True
     )
 
 # pass to MedCLIP model
-model = MedCLIPModel(vision_cls=MedCLIPVisionModelViT)
-model.from_pretrained()
-model.cuda()
+model = MedCLIPModel.from_pretrained(vision_model='vit', device='cpu')
 outputs = model(**inputs)
 print(outputs.keys())
 # dict_keys(['img_embeds', 'text_embeds', 'logits', 'loss_value', 'logits_per_text'])
@@ -67,19 +63,18 @@ print(outputs.keys())
 ## MedCLIP for Prompt-based Classification
 
 ```python
-from medclip import MedCLIPModel, MedCLIPVisionModelViT
+from medclip import MedCLIPModel
 from medclip import MedCLIPProcessor
 from medclip import PromptClassifier
 
 processor = MedCLIPProcessor()
-model = MedCLIPModel(vision_cls=MedCLIPVisionModelViT)
-model.from_pretrained()
+model = MedCLIPModel.from_pretrained(vision_model='vit', device='cpu')
 clf = PromptClassifier(model, ensemble=True)
-clf.cuda()
+clf.to('cpu')
 
 # prepare input image
 from PIL import Image
-image = Image.open('./example_data/view1_frontal.jpg')
+image = Image.open('example_data/view1_frontal.jpg')
 inputs = processor(images=image, return_tensors="pt")
 
 # prepare input prompt texts
@@ -90,9 +85,13 @@ inputs['prompt_inputs'] = cls_prompts
 # make classification
 output = clf(**inputs)
 print(output)
-# {'logits': tensor([[0.5154, 0.4119, 0.2831, 0.2441, 0.4588]], device='cuda:0',
+# {'logits': tensor([[0.5154, 0.4119, 0.2831, 0.2441, 0.4588]],
 #       grad_fn=<StackBackward0>), 'class_names': ['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion']}
 ```
+
+
+### Caveats for MPS device
+Vision Transformer fails on MPS device due to the incompatibility of the Swin Transformer.
 
 ## How to Get Sentence-level Semantic Labels
 

@@ -144,4 +144,5 @@ checkpoints
 *.ckpt
 *.bin
 
+pretrained/
 .env
