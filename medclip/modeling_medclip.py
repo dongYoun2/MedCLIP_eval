@@ -143,7 +143,6 @@ class MedCLIPModel(nn.Module):
         ) -> None:
         super().__init__()
         # device: prefer CUDA else CPU
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         text_proj_bias = False
         assert vision_model in REGISTRY.keys(), f'vision_model should be one of {REGISTRY.keys()}'
 
