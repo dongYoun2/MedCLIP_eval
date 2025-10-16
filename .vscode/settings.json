@@ -1,5 +1,5 @@
 {
     "python.envFile": "${workspaceFolder}/.env",
     "jupyter.notebookFileRoot": "${workspaceFolder}",
-
+    "files.trimTrailingWhitespace": false,
 }

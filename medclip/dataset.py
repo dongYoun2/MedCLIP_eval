@@ -416,7 +416,7 @@ class ZeroShotImageDataset(Dataset):
         return len(self.df)
 
 class ZeroShotImageCollator:
-    def __init__(self, mode, cls_prompts=None, n_prompt=5):
+    def __init__(self, mode, cls_prompts=None):
         # initialize tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(constants.BERT_TYPE)
         self.tokenizer.model_max_length = 77
