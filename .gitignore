@@ -135,7 +135,7 @@ dmypy.json
 
 # dataset
 data
-local_data
+# local_data
 
 # checkpoints
 checkpoint
