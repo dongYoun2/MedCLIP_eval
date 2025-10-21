@@ -19,7 +19,9 @@ def main():
 
     datasets = [
         ('raddar/chest-xrays-indiana-university', 'indiana'),
-        ('tawsifurrahman/covid19-radiography-database', 'covid')
+        ('tawsifurrahman/covid19-radiography-database', 'covid'),
+        ('tawsifurrahman/tuberculosis-tb-chest-xray-dataset', 'tuberculosis'),
+        ('nih-chest-xrays/data', 'nih'),
     ]
 
     for dataset_name, target_name in datasets:
