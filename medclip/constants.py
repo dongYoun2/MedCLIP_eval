@@ -125,6 +125,43 @@ CHEXPERT_CLASS_PROMPTS = {
     },
 }
 
+TB_TASKS = [
+    'Normal',
+    'Tuberculosis',
+]
+
+TB_CLASS_PROMPTS = {
+    'Tuberculosis': {
+        'adjective': [
+            'patchy',
+            'nodular',
+            'cavitary',
+            'fibrotic',
+            'reticulonodular',
+        ],
+        'description': [
+            'lung opacity',
+            'airspace disease',
+            'consolidation',
+            'lung lesion',
+        ],
+        'subtype': [
+            'with cavitation',
+            'with fibrosis or scarring',
+            'with volume loss',
+            'with pleural effusion',
+        ],
+        'location': [
+            'in the upper lung zones',
+            'at the apices',
+            'bilateral',
+            'unilateral',
+            'diffuse',                   # miliary-compatible
+            'perihilar',                 # primary TB-compatible
+        ],
+    }
+}
+
 COVID_TASKS = [
     'Normal',
     'COVID',

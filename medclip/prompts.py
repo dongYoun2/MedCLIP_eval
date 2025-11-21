@@ -66,6 +66,29 @@ def generate_chexpert_class_prompts(n = None):
         print(f'sample {len(prompts[k])} num of prompts for {k} from total {len(cls_prompts)}')
     return prompts
 
+def generate_tb_class_prompts(n=None):
+    prompts = {}
+    for k, v in constants.TB_CLASS_PROMPTS.items():
+        cls_prompts = []
+        keys = list(v.keys())
+
+        # adjective
+        for k0 in v[keys[0]]:
+            # description
+            for k1 in v[keys[1]]:
+                # subtype
+                for k2 in v[keys[2]]:
+                    # location
+                    for k3 in v[keys[3]]:
+                        cls_prompts.append(f"{k0} {k1} {k2} {k3}")
+
+        if n is not None and n < len(cls_prompts):
+            prompts[k] = random.sample(cls_prompts, n)
+        else:
+            prompts[k] = cls_prompts
+        print(f'sample {len(prompts[k])} num of prompts for {k} from total {len(cls_prompts)}')
+    return prompts
+
 def generate_covid_class_prompts(n = None):
     prompts = {}
     for k, v in constants.COVID_CLASS_PROMPTS.items():
