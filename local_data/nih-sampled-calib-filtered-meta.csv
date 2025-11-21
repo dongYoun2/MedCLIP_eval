@@ -1,0 +1,841 @@
+Image Index,Finding Labels,Follow-up #,Patient ID,Patient Age,Patient Gender,View Position,OriginalImage[Width,Height],OriginalImagePixelSpacing[x,y],Unnamed: 11,diseases,disease_count,disease,imgpath,Edema,Atelectasis,Pleural Effusion,Cardiomegaly,Consolidation
+00021340_000.png,Consolidation,0,21340,3,M,AP,2368,2004,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021340_000.png,0,0,0,0,1
+00005722_051.png,Edema,51,5722,40,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_003/images/00005722_051.png,1,0,0,0,0
+00012804_010.png,Effusion,10,12804,62,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00012804_010.png,0,0,1,0,0
+00014534_003.png,Atelectasis,3,14534,22,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00014534_003.png,0,1,0,0,0
+00005722_024.png,Edema|Infiltration,24,5722,40,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_003/images/00005722_024.png,1,0,0,0,0
+00013241_000.png,Consolidation,0,13241,6,M,PA,2390,2081,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013241_000.png,0,0,0,0,1
+00000578_000.png,Cardiomegaly,0,578,42,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000578_000.png,0,0,0,1,0
+00018540_000.png,Atelectasis,0,18540,68,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018540_000.png,0,1,0,0,0
+00009323_004.png,Cardiomegaly,4,9323,57,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00009323_004.png,0,0,0,1,0
+00016643_006.png,Effusion,6,16643,51,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00016643_006.png,0,0,1,0,0
+00009023_003.png,Consolidation|Infiltration,3,9023,60,M,PA,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00009023_003.png,0,0,0,0,1
+00014424_002.png,Consolidation,2,14424,48,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00014424_002.png,0,0,0,0,1
+00014718_000.png,Consolidation|Nodule,0,14718,36,M,PA,2670,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00014718_000.png,0,0,0,0,1
+00014290_009.png,Atelectasis|Infiltration,9,14290,41,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00014290_009.png,0,1,0,0,0
+00014574_000.png,Cardiomegaly,0,14574,74,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00014574_000.png,0,0,0,1,0
+00008850_009.png,Effusion,9,8850,66,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00008850_009.png,0,0,1,0,0
+00014492_003.png,Consolidation,3,14492,46,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00014492_003.png,0,0,0,0,1
+00017751_011.png,Atelectasis,11,17751,54,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017751_011.png,0,1,0,0,0
+00025514_001.png,Atelectasis,1,25514,59,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025514_001.png,0,1,0,0,0
+00017725_001.png,Edema|Infiltration,1,17725,16,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_008/images/00017725_001.png,1,0,0,0,0
+00002541_000.png,Cardiomegaly,0,2541,69,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00002541_000.png,0,0,0,1,0
+00015676_001.png,Consolidation,1,15676,25,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00015676_001.png,0,0,0,0,1
+00008760_017.png,Effusion,17,8760,68,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00008760_017.png,0,0,1,0,0
+00028803_002.png,Edema,2,28803,8,F,AP,2544,3056,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00028803_002.png,1,0,0,0,0
+00022374_001.png,Atelectasis|Nodule,1,22374,52,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022374_001.png,0,1,0,0,0
+00002611_008.png,Atelectasis,8,2611,43,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002611_008.png,0,1,0,0,0
+00015774_000.png,Cardiomegaly,0,15774,7,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015774_000.png,0,0,0,1,0
+00005699_009.png,Effusion,9,5699,36,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005699_009.png,0,0,1,0,0
+00005895_017.png,Effusion,17,5895,53,F,AP,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005895_017.png,0,0,1,0,0
+00010500_002.png,Atelectasis,2,10500,56,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00010500_002.png,0,1,0,0,0
+00008599_000.png,Atelectasis,0,8599,51,F,PA,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00008599_000.png,0,1,0,0,0
+00017930_004.png,Effusion|Mass|Nodule,4,17930,61,F,PA,2048,2500,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00017930_004.png,0,0,1,0,0
+00004131_000.png,Atelectasis,0,4131,68,F,PA,2048,2500,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00004131_000.png,0,1,0,0,0
+00006043_006.png,Effusion|Infiltration,6,6043,47,F,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00006043_006.png,0,0,1,0,0
+00017835_008.png,Atelectasis,8,17835,47,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017835_008.png,0,1,0,0,0
+00019605_008.png,Edema,8,19605,29,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_009/images/00019605_008.png,1,0,0,0,0
+00004501_002.png,Effusion,2,4501,27,F,PA,2048,2500,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00004501_002.png,0,0,1,0,0
+00011622_001.png,Cardiomegaly,1,11622,48,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00011622_001.png,0,0,0,1,0
+00027386_001.png,Atelectasis,1,27386,17,F,AP,3056,2460,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027386_001.png,0,1,0,0,0
+00019017_000.png,Effusion|Nodule,0,19017,56,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00019017_000.png,0,0,1,0,0
+00018432_000.png,Atelectasis,0,18432,65,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018432_000.png,0,1,0,0,0
+00026754_000.png,Atelectasis,0,26754,65,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00026754_000.png,0,1,0,0,0
+00001232_001.png,Effusion,1,1232,61,F,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_001/images/00001232_001.png,0,0,1,0,0
+00006119_000.png,Cardiomegaly|Infiltration,0,6119,53,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00006119_000.png,0,0,0,1,0
+00027061_000.png,Edema,0,27061,32,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_011/images/00027061_000.png,1,0,0,0,0
+00004360_023.png,Consolidation,23,4360,76,M,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00004360_023.png,0,0,0,0,1
+00020349_000.png,Cardiomegaly,0,20349,18,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00020349_000.png,0,0,0,1,0
+00010475_016.png,Edema|Infiltration,16,10475,64,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00010475_016.png,1,0,0,0,0
+00015316_000.png,Cardiomegaly|Infiltration,0,15316,47,F,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015316_000.png,0,0,0,1,0
+00022322_000.png,Cardiomegaly,0,22322,29,F,PA,2570,2813,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00022322_000.png,0,0,0,1,0
+00010935_000.png,Effusion|Infiltration|Mass|Pneumothorax,0,10935,53,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010935_000.png,0,0,1,0,0
+00005386_005.png,Atelectasis,5,5386,58,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005386_005.png,0,1,0,0,0
+00017291_002.png,Atelectasis,2,17291,53,M,PA,2992,2589,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017291_002.png,0,1,0,0,0
+00004625_007.png,Consolidation|Infiltration|Pleural_Thickening|Pneumothorax,7,4625,44,F,PA,2710,2761,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00004625_007.png,0,0,0,0,1
+00019766_022.png,Atelectasis|Infiltration,22,19766,41,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019766_022.png,0,1,0,0,0
+00010684_007.png,Consolidation|Infiltration,7,10684,59,F,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010684_007.png,0,0,0,0,1
+00007007_016.png,Consolidation|Pneumonia,16,7007,45,F,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00007007_016.png,0,0,0,0,1
+00007748_000.png,Atelectasis|Infiltration,0,7748,69,F,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007748_000.png,0,1,0,0,0
+00014723_000.png,Cardiomegaly,0,14723,47,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00014723_000.png,0,0,0,1,0
+00013988_003.png,Consolidation|Infiltration,3,13988,17,M,AP,2048,2500,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00013988_003.png,0,0,0,0,1
+00028795_007.png,Effusion|Infiltration,7,28795,44,F,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00028795_007.png,0,0,1,0,0
+00009034_002.png,Atelectasis|Infiltration,2,9034,63,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00009034_002.png,0,1,0,0,0
+00014251_023.png,Effusion|Infiltration,23,14251,70,M,PA,2792,2789,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014251_023.png,0,0,1,0,0
+00021294_003.png,Edema|Infiltration,3,21294,57,M,PA,2992,2991,0.143,0.143,,['Edema'],1,Edema,data/nih/images_010/images/00021294_003.png,1,0,0,0,0
+00015361_000.png,Cardiomegaly,0,15361,51,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015361_000.png,0,0,0,1,0
+00004452_000.png,Cardiomegaly,0,4452,72,F,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00004452_000.png,0,0,0,1,0
+00014596_004.png,Effusion,4,14596,52,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014596_004.png,0,0,1,0,0
+00030235_000.png,Consolidation|Hernia,0,30235,67,M,PA,2544,3056,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00030235_000.png,0,0,0,0,1
+00010185_001.png,Atelectasis,1,10185,39,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00010185_001.png,0,1,0,0,0
+00030102_001.png,Consolidation,1,30102,9,M,AP,2544,3056,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00030102_001.png,0,0,0,0,1
+00016189_002.png,Effusion|Infiltration,2,16189,58,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00016189_002.png,0,0,1,0,0
+00028317_012.png,Atelectasis|Emphysema|Fibrosis,12,28317,54,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00028317_012.png,0,1,0,0,0
+00013627_005.png,Cardiomegaly,5,13627,54,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00013627_005.png,0,0,0,1,0
+00030038_011.png,Effusion,11,30038,28,F,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00030038_011.png,0,0,1,0,0
+00026225_000.png,Cardiomegaly,0,26225,31,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00026225_000.png,0,0,0,1,0
+00015028_005.png,Edema,5,15028,48,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00015028_005.png,1,0,0,0,0
+00017818_000.png,Cardiomegaly,0,17818,28,M,PA,2952,2912,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00017818_000.png,0,0,0,1,0
+00007867_003.png,Consolidation,3,7867,65,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00007867_003.png,0,0,0,0,1
+00004315_000.png,Cardiomegaly,0,4315,27,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00004315_000.png,0,0,0,1,0
+00027500_001.png,Effusion|Infiltration,1,27500,41,F,PA,2684,2681,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00027500_001.png,0,0,1,0,0
+00020340_010.png,Consolidation,10,20340,72,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00020340_010.png,0,0,0,0,1
+00019698_000.png,Atelectasis,0,19698,56,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019698_000.png,0,1,0,0,0
+00015034_004.png,Edema,4,15034,65,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00015034_004.png,1,0,0,0,0
+00003130_007.png,Atelectasis|Infiltration,7,3130,46,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003130_007.png,0,1,0,0,0
+00021651_010.png,Effusion,10,21651,60,F,PA,2650,2545,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00021651_010.png,0,0,1,0,0
+00006952_017.png,Cardiomegaly|Infiltration,17,6952,31,M,AP,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00006952_017.png,0,0,0,1,0
+00010177_000.png,Cardiomegaly,0,10177,50,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00010177_000.png,0,0,0,1,0
+00012081_000.png,Cardiomegaly,0,12081,30,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00012081_000.png,0,0,0,1,0
+00023081_001.png,Consolidation,1,23081,53,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00023081_001.png,0,0,0,0,1
+00006649_000.png,Effusion|Infiltration,0,6649,1,M,AP,2048,2500,0.115,0.115,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00006649_000.png,0,0,1,0,0
+00003164_002.png,Atelectasis,2,3164,55,M,PA,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003164_002.png,0,1,0,0,0
+00007007_014.png,Atelectasis,14,7007,45,F,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007007_014.png,0,1,0,0,0
+00030276_000.png,Cardiomegaly,0,30276,39,F,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00030276_000.png,0,0,0,1,0
+00027782_006.png,Cardiomegaly,6,27782,55,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00027782_006.png,0,0,0,1,0
+00002337_005.png,Consolidation|Infiltration,5,2337,57,M,PA,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_002/images/00002337_005.png,0,0,0,0,1
+00014618_003.png,Consolidation,3,14618,57,F,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00014618_003.png,0,0,0,0,1
+00019677_000.png,Effusion,0,19677,38,F,PA,2882,2869,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00019677_000.png,0,0,1,0,0
+00013880_001.png,Effusion|Pleural_Thickening,1,13880,51,M,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00013880_001.png,0,0,1,0,0
+00005114_003.png,Effusion,3,5114,36,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005114_003.png,0,0,1,0,0
+00001982_000.png,Atelectasis,0,1982,67,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00001982_000.png,0,1,0,0,0
+00000084_001.png,Effusion,1,84,57,F,PA,2456,2968,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_001/images/00000084_001.png,0,0,1,0,0
+00011274_000.png,Atelectasis,0,11274,54,F,PA,2762,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00011274_000.png,0,1,0,0,0
+00001880_003.png,Edema,3,1880,9,M,AP,2048,2500,0.171,0.171,,['Edema'],1,Edema,data/nih/images_002/images/00001880_003.png,1,0,0,0,0
+00021821_005.png,Effusion|Infiltration,5,21821,52,M,AP,3020,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00021821_005.png,0,0,1,0,0
+00009368_018.png,Atelectasis|Fibrosis|Infiltration|Mass|Nodule,18,9368,84,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00009368_018.png,0,1,0,0,0
+00000832_010.png,Consolidation,10,832,24,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_001/images/00000832_010.png,0,0,0,0,1
+00000837_000.png,Cardiomegaly,0,837,75,M,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000837_000.png,0,0,0,1,0
+00013841_000.png,Cardiomegaly|Infiltration,0,13841,48,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00013841_000.png,0,0,0,1,0
+00011355_032.png,Effusion|Mass,32,11355,34,M,PA,3056,2496,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00011355_032.png,0,0,1,0,0
+00022010_001.png,Atelectasis,1,22010,2,M,AP,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022010_001.png,0,1,0,0,0
+00020979_001.png,Cardiomegaly,1,20979,48,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00020979_001.png,0,0,0,1,0
+00029459_002.png,Cardiomegaly,2,29459,52,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00029459_002.png,0,0,0,1,0
+00011741_011.png,Effusion|Mass,11,11741,17,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00011741_011.png,0,0,1,0,0
+00013209_003.png,Atelectasis,3,13209,73,F,PA,2594,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00013209_003.png,0,1,0,0,0
+00019418_007.png,Edema|Infiltration,7,19418,55,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_009/images/00019418_007.png,1,0,0,0,0
+00019889_004.png,Atelectasis,4,19889,33,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019889_004.png,0,1,0,0,0
+00029841_001.png,Atelectasis|Infiltration,1,29841,65,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029841_001.png,0,1,0,0,0
+00017356_008.png,Edema,8,17356,29,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_008/images/00017356_008.png,1,0,0,0,0
+00003088_000.png,Cardiomegaly,0,3088,60,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00003088_000.png,0,0,0,1,0
+00022369_008.png,Effusion,8,22369,43,F,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00022369_008.png,0,0,1,0,0
+00029221_003.png,Cardiomegaly,3,29221,30,M,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00029221_003.png,0,0,0,1,0
+00022267_004.png,Effusion|Mass,4,22267,34,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00022267_004.png,0,0,1,0,0
+00011124_002.png,Edema|Emphysema,2,11124,66,M,PA,2630,2991,0.143,0.143,,['Edema'],1,Edema,data/nih/images_005/images/00011124_002.png,1,0,0,0,0
+00030536_001.png,Atelectasis|Infiltration,1,30536,56,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00030536_001.png,0,1,0,0,0
+00016558_000.png,Atelectasis,0,16558,57,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016558_000.png,0,1,0,0,0
+00020437_002.png,Edema|Pneumothorax,2,20437,56,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_009/images/00020437_002.png,1,0,0,0,0
+00008298_001.png,Edema,1,8298,62,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_004/images/00008298_001.png,1,0,0,0,0
+00016056_004.png,Atelectasis,4,16056,59,M,PA,2758,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016056_004.png,0,1,0,0,0
+00003459_026.png,Atelectasis,26,3459,52,F,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003459_026.png,0,1,0,0,0
+00002798_003.png,Cardiomegaly,3,2798,71,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00002798_003.png,0,0,0,1,0
+00018500_004.png,Atelectasis|Infiltration,4,18500,56,M,PA,2562,2703,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018500_004.png,0,1,0,0,0
+00020191_003.png,Effusion,3,20191,56,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00020191_003.png,0,0,1,0,0
+00000506_020.png,Edema|Infiltration|Pleural_Thickening,20,506,28,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_001/images/00000506_020.png,1,0,0,0,0
+00016589_000.png,Cardiomegaly,0,16589,27,F,PA,2484,2206,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00016589_000.png,0,0,0,1,0
+00016177_015.png,Consolidation,15,16177,56,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_008/images/00016177_015.png,0,0,0,0,1
+00007056_009.png,Effusion|Pneumothorax,9,7056,56,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00007056_009.png,0,0,1,0,0
+00027334_000.png,Cardiomegaly,0,27334,25,F,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00027334_000.png,0,0,0,1,0
+00008697_004.png,Edema|Infiltration,4,8697,48,F,PA,2048,2500,0.168,0.168,,['Edema'],1,Edema,data/nih/images_004/images/00008697_004.png,1,0,0,0,0
+00019484_007.png,Effusion|Pleural_Thickening,7,19484,71,M,PA,2866,2719,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00019484_007.png,0,0,1,0,0
+00012306_001.png,Atelectasis,1,12306,42,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00012306_001.png,0,1,0,0,0
+00020107_000.png,Cardiomegaly,0,20107,25,F,PA,2238,2480,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00020107_000.png,0,0,0,1,0
+00018749_003.png,Effusion,3,18749,55,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00018749_003.png,0,0,1,0,0
+00019484_006.png,Effusion|Infiltration,6,19484,72,M,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00019484_006.png,0,0,1,0,0
+00018450_000.png,Cardiomegaly,0,18450,73,M,PA,1847,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00018450_000.png,0,0,0,1,0
+00010092_024.png,Cardiomegaly|Infiltration|Pneumothorax,24,10092,49,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00010092_024.png,0,0,0,1,0
+00007368_002.png,Atelectasis,2,7368,46,F,PA,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007368_002.png,0,1,0,0,0
+00029866_001.png,Atelectasis|Emphysema,1,29866,56,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029866_001.png,0,1,0,0,0
+00011436_005.png,Consolidation|Infiltration,5,11436,55,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00011436_005.png,0,0,0,0,1
+00029532_022.png,Effusion,22,29532,58,M,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029532_022.png,0,0,1,0,0
+00005184_000.png,Edema,0,5184,41,M,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_003/images/00005184_000.png,1,0,0,0,0
+00010540_002.png,Atelectasis,2,10540,38,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00010540_002.png,0,1,0,0,0
+00026233_000.png,Cardiomegaly,0,26233,49,F,PA,3044,2536,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00026233_000.png,0,0,0,1,0
+00014085_006.png,Effusion,6,14085,63,M,PA,2674,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014085_006.png,0,0,1,0,0
+00026314_000.png,Atelectasis|Infiltration,0,26314,36,M,PA,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00026314_000.png,0,1,0,0,0
+00014578_000.png,Atelectasis,0,14578,50,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00014578_000.png,0,1,0,0,0
+00007326_000.png,Cardiomegaly,0,7326,48,F,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00007326_000.png,0,0,0,1,0
+00010741_015.png,Effusion|Infiltration,15,10741,81,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010741_015.png,0,0,1,0,0
+00026755_000.png,Effusion|Infiltration|Mass,0,26755,53,F,PA,2894,2585,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00026755_000.png,0,0,1,0,0
+00015882_000.png,Cardiomegaly,0,15882,73,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015882_000.png,0,0,0,1,0
+00026967_005.png,Atelectasis|Pneumothorax,5,26967,53,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00026967_005.png,0,1,0,0,0
+00026236_013.png,Cardiomegaly,13,26236,37,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00026236_013.png,0,0,0,1,0
+00020181_000.png,Cardiomegaly,0,20181,59,M,PA,2906,2829,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00020181_000.png,0,0,0,1,0
+00021939_009.png,Atelectasis|Infiltration,9,21939,34,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021939_009.png,0,1,0,0,0
+00028920_001.png,Atelectasis,1,28920,63,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00028920_001.png,0,1,0,0,0
+00012048_008.png,Edema|Mass,8,12048,64,M,PA,2992,2665,0.143,0.143,,['Edema'],1,Edema,data/nih/images_006/images/00012048_008.png,1,0,0,0,0
+00017830_002.png,Effusion,2,17830,52,M,PA,2914,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00017830_002.png,0,0,1,0,0
+00006000_006.png,Atelectasis,6,6000,68,F,PA,2048,2500,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00006000_006.png,0,1,0,0,0
+00027894_005.png,Effusion|Infiltration|Pneumonia,5,27894,71,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00027894_005.png,0,0,1,0,0
+00029661_002.png,Effusion,2,29661,31,F,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029661_002.png,0,0,1,0,0
+00022466_003.png,Edema,3,22466,58,M,PA,2992,2991,0.143,0.143,,['Edema'],1,Edema,data/nih/images_010/images/00022466_003.png,1,0,0,0,0
+00010261_002.png,Consolidation,2,10261,58,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010261_002.png,0,0,0,0,1
+00011949_000.png,Cardiomegaly,0,11949,85,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00011949_000.png,0,0,0,1,0
+00026338_003.png,Cardiomegaly|Infiltration,3,26338,17,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00026338_003.png,0,0,0,1,0
+00012092_003.png,Cardiomegaly,3,12092,41,F,PA,2960,2314,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00012092_003.png,0,0,0,1,0
+00003338_000.png,Cardiomegaly|Fibrosis,0,3338,52,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00003338_000.png,0,0,0,1,0
+00007393_000.png,Cardiomegaly,0,7393,64,F,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00007393_000.png,0,0,0,1,0
+00014790_008.png,Consolidation,8,14790,66,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00014790_008.png,0,0,0,0,1
+00022767_000.png,Edema,0,22767,54,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00022767_000.png,1,0,0,0,0
+00023311_008.png,Atelectasis,8,23311,34,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00023311_008.png,0,1,0,0,0
+00018465_000.png,Cardiomegaly,0,18465,62,M,PA,2978,2741,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00018465_000.png,0,0,0,1,0
+00011000_000.png,Consolidation,0,11000,20,M,PA,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00011000_000.png,0,0,0,0,1
+00021176_000.png,Consolidation,0,21176,82,M,PA,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021176_000.png,0,0,0,0,1
+00013051_002.png,Effusion|Nodule|Pleural_Thickening,2,13051,55,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00013051_002.png,0,0,1,0,0
+00029766_000.png,Cardiomegaly,0,29766,60,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00029766_000.png,0,0,0,1,0
+00017544_004.png,Atelectasis,4,17544,44,M,PA,2992,2817,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017544_004.png,0,1,0,0,0
+00013094_000.png,Atelectasis|Infiltration|Mass,0,13094,56,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00013094_000.png,0,1,0,0,0
+00010179_001.png,Atelectasis,1,10179,62,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00010179_001.png,0,1,0,0,0
+00007199_000.png,Atelectasis,0,7199,31,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007199_000.png,0,1,0,0,0
+00011139_000.png,Cardiomegaly,0,11139,54,F,PA,2670,2669,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00011139_000.png,0,0,0,1,0
+00009899_003.png,Atelectasis|Infiltration,3,9899,55,F,PA,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00009899_003.png,0,1,0,0,0
+00010887_027.png,Edema,27,10887,67,F,AP,3056,2412,0.139,0.139,,['Edema'],1,Edema,data/nih/images_005/images/00010887_027.png,1,0,0,0,0
+00009894_003.png,Edema,3,9894,56,F,PA,2048,2500,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00009894_003.png,1,0,0,0,0
+00010669_003.png,Effusion|Mass,3,10669,53,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010669_003.png,0,0,1,0,0
+00008404_000.png,Cardiomegaly,0,8404,55,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00008404_000.png,0,0,0,1,0
+00002251_008.png,Consolidation|Pneumothorax,8,2251,72,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_002/images/00002251_008.png,0,0,0,0,1
+00026151_000.png,Atelectasis|Mass,0,26151,56,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00026151_000.png,0,1,0,0,0
+00010780_007.png,Edema|Infiltration|Pneumonia,7,10780,35,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00010780_007.png,1,0,0,0,0
+00007948_001.png,Cardiomegaly|Nodule,1,7948,33,M,AP,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00007948_001.png,0,0,0,1,0
+00000200_001.png,Cardiomegaly,1,200,77,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000200_001.png,0,0,0,1,0
+00030519_004.png,Edema|Infiltration,4,30519,50,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00030519_004.png,1,0,0,0,0
+00005835_004.png,Atelectasis,4,5835,37,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005835_004.png,0,1,0,0,0
+00003378_000.png,Effusion|Pneumothorax,0,3378,65,M,PA,2882,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00003378_000.png,0,0,1,0,0
+00017382_000.png,Atelectasis,0,17382,71,F,PA,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017382_000.png,0,1,0,0,0
+00025126_000.png,Cardiomegaly,0,25126,58,F,PA,2710,2601,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00025126_000.png,0,0,0,1,0
+00029445_000.png,Consolidation|Mass,0,29445,71,M,PA,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00029445_000.png,0,0,0,0,1
+00017468_001.png,Cardiomegaly,1,17468,25,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00017468_001.png,0,0,0,1,0
+00011522_005.png,Atelectasis,5,11522,53,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00011522_005.png,0,1,0,0,0
+00012529_000.png,Atelectasis,0,12529,52,F,PA,2770,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00012529_000.png,0,1,0,0,0
+00017251_001.png,Atelectasis|Infiltration,1,17251,60,F,PA,2650,2540,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017251_001.png,0,1,0,0,0
+00001959_000.png,Cardiomegaly,0,1959,50,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00001959_000.png,0,0,0,1,0
+00016207_000.png,Cardiomegaly,0,16207,74,M,PA,2990,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00016207_000.png,0,0,0,1,0
+00005052_000.png,Atelectasis,0,5052,62,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005052_000.png,0,1,0,0,0
+00004581_009.png,Atelectasis|Emphysema|Mass|Pneumothorax,9,4581,65,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00004581_009.png,0,1,0,0,0
+00012150_000.png,Cardiomegaly,0,12150,45,M,PA,2614,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00012150_000.png,0,0,0,1,0
+00030247_010.png,Atelectasis,10,30247,54,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00030247_010.png,0,1,0,0,0
+00013539_011.png,Consolidation,11,13539,54,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013539_011.png,0,0,0,0,1
+00009894_011.png,Effusion,11,9894,57,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00009894_011.png,0,0,1,0,0
+00010808_002.png,Cardiomegaly,2,10808,40,F,PA,2610,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00010808_002.png,0,0,0,1,0
+00029572_002.png,Cardiomegaly,2,29572,35,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00029572_002.png,0,0,0,1,0
+00011299_000.png,Consolidation,0,11299,36,F,PA,2618,2741,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00011299_000.png,0,0,0,0,1
+00017289_000.png,Atelectasis|Infiltration,0,17289,56,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017289_000.png,0,1,0,0,0
+00008259_009.png,Effusion|Nodule,9,8259,72,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00008259_009.png,0,0,1,0,0
+00025806_004.png,Consolidation|Mass,4,25806,50,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00025806_004.png,0,0,0,0,1
+00011814_019.png,Atelectasis,19,11814,70,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00011814_019.png,0,1,0,0,0
+00021968_006.png,Atelectasis|Pneumothorax,6,21968,30,M,PA,2422,2751,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021968_006.png,0,1,0,0,0
+00020333_001.png,Edema|Mass,1,20333,64,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_009/images/00020333_001.png,1,0,0,0,0
+00013834_006.png,Effusion|Emphysema,6,13834,74,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00013834_006.png,0,0,1,0,0
+00006731_004.png,Atelectasis,4,6731,54,M,PA,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00006731_004.png,0,1,0,0,0
+00000573_010.png,Consolidation|Pleural_Thickening,10,573,47,M,PA,2978,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_001/images/00000573_010.png,0,0,0,0,1
+00016541_001.png,Effusion|Pleural_Thickening,1,16541,55,M,PA,2706,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00016541_001.png,0,0,1,0,0
+00020688_000.png,Cardiomegaly,0,20688,44,F,PA,2458,2901,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00020688_000.png,0,0,0,1,0
+00026336_003.png,Atelectasis|Fibrosis|Pleural_Thickening,3,26336,53,F,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00026336_003.png,0,1,0,0,0
+00010887_026.png,Edema|Infiltration,26,10887,67,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_005/images/00010887_026.png,1,0,0,0,0
+00030102_000.png,Consolidation,0,30102,9,M,AP,2544,3056,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00030102_000.png,0,0,0,0,1
+00001369_000.png,Cardiomegaly,0,1369,35,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00001369_000.png,0,0,0,1,0
+00015072_011.png,Edema|Infiltration|Pneumonia,11,15072,61,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00015072_011.png,1,0,0,0,0
+00016001_000.png,Cardiomegaly,0,16001,52,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00016001_000.png,0,0,0,1,0
+00030077_008.png,Effusion|Pneumothorax,8,30077,66,F,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00030077_008.png,0,0,1,0,0
+00014427_006.png,Consolidation|Nodule,6,14427,57,M,PA,2021,2021,0.194311,0.194311,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00014427_006.png,0,0,0,0,1
+00015266_002.png,Effusion,2,15266,76,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00015266_002.png,0,0,1,0,0
+00000138_005.png,Effusion|Nodule|Pleural_Thickening,5,138,66,F,PA,2642,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_001/images/00000138_005.png,0,0,1,0,0
+00000406_000.png,Cardiomegaly,0,406,51,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000406_000.png,0,0,0,1,0
+00017751_007.png,Atelectasis|Pleural_Thickening,7,17751,54,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017751_007.png,0,1,0,0,0
+00026908_004.png,Consolidation,4,26908,63,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00026908_004.png,0,0,0,0,1
+00012829_001.png,Effusion|Pneumothorax,1,12829,53,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00012829_001.png,0,0,1,0,0
+00015985_000.png,Effusion|Mass|Nodule|Pleural_Thickening,0,15985,71,F,PA,2822,2789,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00015985_000.png,0,0,1,0,0
+00012601_000.png,Atelectasis,0,12601,49,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00012601_000.png,0,1,0,0,0
+00004360_006.png,Effusion|Infiltration,6,4360,76,M,PA,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00004360_006.png,0,0,1,0,0
+00013417_000.png,Consolidation,0,13417,63,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013417_000.png,0,0,0,0,1
+00000344_000.png,Consolidation|Infiltration|Mass|Pleural_Thickening,0,344,33,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_001/images/00000344_000.png,0,0,0,0,1
+00017544_003.png,Edema|Infiltration|Nodule,3,17544,49,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_008/images/00017544_003.png,1,0,0,0,0
+00012275_000.png,Cardiomegaly,0,12275,69,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00012275_000.png,0,0,0,1,0
+00017313_005.png,Effusion|Mass|Pneumothorax,5,17313,54,M,PA,2898,2859,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00017313_005.png,0,0,1,0,0
+00027782_002.png,Edema,2,27782,55,F,PA,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_011/images/00027782_002.png,1,0,0,0,0
+00005376_001.png,Effusion|Nodule,1,5376,36,F,PA,2048,2500,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005376_001.png,0,0,1,0,0
+00014129_007.png,Edema,7,14129,64,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00014129_007.png,1,0,0,0,0
+00017691_014.png,Effusion,14,17691,61,M,PA,2990,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00017691_014.png,0,0,1,0,0
+00025822_004.png,Effusion,4,25822,24,F,PA,2544,3056,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00025822_004.png,0,0,1,0,0
+00011816_006.png,Edema,6,11816,39,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_006/images/00011816_006.png,1,0,0,0,0
+00012505_006.png,Effusion|Infiltration,6,12505,65,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00012505_006.png,0,0,1,0,0
+00020471_002.png,Consolidation,2,20471,53,M,PA,2946,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00020471_002.png,0,0,0,0,1
+00010669_002.png,Consolidation,2,10669,53,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010669_002.png,0,0,0,0,1
+00021895_007.png,Cardiomegaly,7,21895,32,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00021895_007.png,0,0,0,1,0
+00003368_001.png,Atelectasis|Pneumonia,1,3368,58,F,PA,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003368_001.png,0,1,0,0,0
+00029469_014.png,Consolidation,14,29469,59,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00029469_014.png,0,0,0,0,1
+00026694_006.png,Consolidation,6,26694,30,M,PA,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00026694_006.png,0,0,0,0,1
+00021212_004.png,Edema|Infiltration,4,21212,32,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00021212_004.png,1,0,0,0,0
+00007989_000.png,Cardiomegaly,0,7989,43,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00007989_000.png,0,0,0,1,0
+00009640_003.png,Edema|Mass,3,9640,25,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00009640_003.png,1,0,0,0,0
+00023299_001.png,Cardiomegaly,1,23299,17,M,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00023299_001.png,0,0,0,1,0
+00028689_002.png,Edema,2,28689,52,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00028689_002.png,1,0,0,0,0
+00005966_005.png,Consolidation|Infiltration|Pneumothorax,5,5966,51,F,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00005966_005.png,0,0,0,0,1
+00023114_000.png,Atelectasis,0,23114,26,F,PA,2858,2813,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00023114_000.png,0,1,0,0,0
+00006097_005.png,Effusion|Infiltration,5,6097,50,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00006097_005.png,0,0,1,0,0
+00002604_001.png,Cardiomegaly,1,2604,20,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00002604_001.png,0,0,0,1,0
+00028677_003.png,Consolidation|Emphysema,3,28677,49,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00028677_003.png,0,0,0,0,1
+00015581_007.png,Edema,7,15581,39,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00015581_007.png,1,0,0,0,0
+00020754_000.png,Cardiomegaly,0,20754,78,F,PA,3056,2496,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00020754_000.png,0,0,0,1,0
+00003154_000.png,Atelectasis,0,3154,70,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003154_000.png,0,1,0,0,0
+00025909_002.png,Consolidation,2,25909,49,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00025909_002.png,0,0,0,0,1
+00005569_002.png,Atelectasis,2,5569,70,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005569_002.png,0,1,0,0,0
+00005528_001.png,Effusion,1,5528,43,M,PA,2048,2500,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005528_001.png,0,0,1,0,0
+00018845_003.png,Effusion|Infiltration,3,18845,77,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00018845_003.png,0,0,1,0,0
+00007542_000.png,Atelectasis,0,7542,65,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007542_000.png,0,1,0,0,0
+00003097_001.png,Atelectasis,1,3097,45,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003097_001.png,0,1,0,0,0
+00025810_000.png,Cardiomegaly,0,25810,46,F,PA,2582,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00025810_000.png,0,0,0,1,0
+00016615_006.png,Edema|Infiltration,6,16615,63,F,AP,3052,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_008/images/00016615_006.png,1,0,0,0,0
+00014870_000.png,Consolidation|Mass,0,14870,71,F,PA,2634,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00014870_000.png,0,0,0,0,1
+00006690_000.png,Consolidation|Nodule,0,6690,40,M,PA,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00006690_000.png,0,0,0,0,1
+00008871_001.png,Cardiomegaly,1,8871,54,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00008871_001.png,0,0,0,1,0
+00007688_000.png,Cardiomegaly,0,7688,13,M,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00007688_000.png,0,0,0,1,0
+00010991_003.png,Effusion|Infiltration,3,10991,48,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010991_003.png,0,0,1,0,0
+00006490_005.png,Edema|Infiltration|Pneumonia,5,6490,43,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_003/images/00006490_005.png,1,0,0,0,0
+00003512_001.png,Effusion,1,3512,70,F,PA,2048,2500,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00003512_001.png,0,0,1,0,0
+00005528_017.png,Atelectasis|Infiltration,17,5528,45,M,PA,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005528_017.png,0,1,0,0,0
+00028131_005.png,Effusion,5,28131,51,M,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00028131_005.png,0,0,1,0,0
+00018721_004.png,Atelectasis|Infiltration|Nodule,4,18721,42,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018721_004.png,0,1,0,0,0
+00017557_003.png,Edema|Mass|Nodule,3,17557,43,M,PA,2992,2991,0.143,0.143,,['Edema'],1,Edema,data/nih/images_008/images/00017557_003.png,1,0,0,0,0
+00016730_000.png,Cardiomegaly,0,16730,24,F,PA,2270,2633,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00016730_000.png,0,0,0,1,0
+00022237_013.png,Cardiomegaly|Infiltration,13,22237,69,M,PA,2850,2866,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00022237_013.png,0,0,0,1,0
+00014486_003.png,Atelectasis,3,14486,67,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00014486_003.png,0,1,0,0,0
+00015792_006.png,Edema|Nodule,6,15792,56,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00015792_006.png,1,0,0,0,0
+00019385_000.png,Cardiomegaly,0,19385,78,M,PA,2856,2959,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00019385_000.png,0,0,0,1,0
+00005683_001.png,Atelectasis,1,5683,53,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005683_001.png,0,1,0,0,0
+00007442_010.png,Edema|Infiltration|Pneumonia,10,7442,35,F,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_004/images/00007442_010.png,1,0,0,0,0
+00006452_003.png,Atelectasis,3,6452,44,M,PA,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00006452_003.png,0,1,0,0,0
+00006055_002.png,Consolidation,2,6055,38,F,PA,2048,2500,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00006055_002.png,0,0,0,0,1
+00000077_000.png,Cardiomegaly,0,77,61,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000077_000.png,0,0,0,1,0
+00022895_000.png,Atelectasis,0,22895,16,M,PA,3044,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022895_000.png,0,1,0,0,0
+00001256_008.png,Atelectasis|Emphysema|Infiltration,8,1256,59,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_001/images/00001256_008.png,0,1,0,0,0
+00028948_001.png,Cardiomegaly|Hernia|Mass,1,28948,87,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00028948_001.png,0,0,0,1,0
+00006580_000.png,Cardiomegaly|Pneumonia,0,6580,47,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00006580_000.png,0,0,0,1,0
+00013463_000.png,Consolidation|Nodule,0,13463,57,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013463_000.png,0,0,0,0,1
+00015715_002.png,Cardiomegaly|Emphysema,2,15715,61,F,PA,2590,2642,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015715_002.png,0,0,0,1,0
+00022447_000.png,Atelectasis,0,22447,53,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022447_000.png,0,1,0,0,0
+00029168_001.png,Edema|Infiltration,1,29168,24,M,PA,2021,2021,0.194311,0.194311,,['Edema'],1,Edema,data/nih/images_012/images/00029168_001.png,1,0,0,0,0
+00000288_004.png,Atelectasis|Infiltration,4,288,66,F,PA,2790,2376,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_001/images/00000288_004.png,0,1,0,0,0
+00002321_000.png,Atelectasis,0,2321,69,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002321_000.png,0,1,0,0,0
+00021299_001.png,Atelectasis,1,21299,62,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021299_001.png,0,1,0,0,0
+00007228_001.png,Cardiomegaly,1,7228,69,F,AP,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00007228_001.png,0,0,0,1,0
+00022684_000.png,Edema|Infiltration,0,22684,45,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00022684_000.png,1,0,0,0,0
+00003394_002.png,Effusion|Infiltration,2,3394,69,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00003394_002.png,0,0,1,0,0
+00004577_004.png,Atelectasis|Fibrosis,4,4577,37,M,PA,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00004577_004.png,0,1,0,0,0
+00021585_000.png,Consolidation|Fibrosis|Nodule,0,21585,62,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021585_000.png,0,0,0,0,1
+00030038_013.png,Edema,13,30038,28,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00030038_013.png,1,0,0,0,0
+00023223_000.png,Effusion,0,23223,55,F,PA,2544,3056,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00023223_000.png,0,0,1,0,0
+00019450_002.png,Atelectasis|Nodule,2,19450,75,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019450_002.png,0,1,0,0,0
+00030679_002.png,Effusion|Emphysema|Nodule|Pneumothorax,2,30679,63,M,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00030679_002.png,0,0,1,0,0
+00022322_013.png,Consolidation|Infiltration,13,22322,29,F,AP,2544,3056,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00022322_013.png,0,0,0,0,1
+00006832_002.png,Consolidation,2,6832,18,M,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00006832_002.png,0,0,0,0,1
+00013810_002.png,Atelectasis,2,13810,77,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00013810_002.png,0,1,0,0,0
+00006493_000.png,Cardiomegaly,0,6493,63,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00006493_000.png,0,0,0,1,0
+00021926_003.png,Cardiomegaly,3,21926,10,M,AP,2820,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00021926_003.png,0,0,0,1,0
+00025603_001.png,Atelectasis|Infiltration,1,25603,45,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025603_001.png,0,1,0,0,0
+00021541_003.png,Cardiomegaly,3,21541,61,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00021541_003.png,0,0,0,1,0
+00016305_001.png,Consolidation|Infiltration,1,16305,47,F,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_008/images/00016305_001.png,0,0,0,0,1
+00004591_004.png,Edema|Infiltration,4,4591,62,M,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_003/images/00004591_004.png,1,0,0,0,0
+00013938_000.png,Consolidation,0,13938,31,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00013938_000.png,0,0,0,0,1
+00016596_002.png,Cardiomegaly,2,16596,29,M,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00016596_002.png,0,0,0,1,0
+00011654_005.png,Atelectasis,5,11654,44,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00011654_005.png,0,1,0,0,0
+00011498_000.png,Cardiomegaly,0,11498,52,F,PA,2992,2849,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00011498_000.png,0,0,0,1,0
+00002611_007.png,Atelectasis,7,2611,43,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002611_007.png,0,1,0,0,0
+00027621_006.png,Atelectasis,6,27621,57,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027621_006.png,0,1,0,0,0
+00010849_000.png,Consolidation,0,10849,66,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010849_000.png,0,0,0,0,1
+00016011_014.png,Effusion,14,16011,27,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00016011_014.png,0,0,1,0,0
+00003665_010.png,Cardiomegaly,10,3665,27,M,PA,2576,2658,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00003665_010.png,0,0,0,1,0
+00013699_000.png,Atelectasis,0,13699,38,F,PA,2438,2625,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00013699_000.png,0,1,0,0,0
+00011835_001.png,Edema,1,11835,38,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_006/images/00011835_001.png,1,0,0,0,0
+00003725_004.png,Effusion,4,3725,17,F,PA,2048,2500,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00003725_004.png,0,0,1,0,0
+00010433_009.png,Consolidation|Mass,9,10433,21,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010433_009.png,0,0,0,0,1
+00000124_000.png,Cardiomegaly|Infiltration,0,124,69,M,PA,2794,2745,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000124_000.png,0,0,0,1,0
+00005893_000.png,Effusion|Nodule,0,5893,19,M,PA,2048,2500,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005893_000.png,0,0,1,0,0
+00022198_005.png,Effusion|Mass,5,22198,27,M,AP,2836,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00022198_005.png,0,0,1,0,0
+00002094_004.png,Atelectasis,4,2094,54,M,PA,2710,2869,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002094_004.png,0,1,0,0,0
+00004775_000.png,Cardiomegaly,0,4775,74,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00004775_000.png,0,0,0,1,0
+00013651_001.png,Consolidation,1,13651,47,M,PA,2578,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013651_001.png,0,0,0,0,1
+00013368_000.png,Consolidation|Infiltration|Pleural_Thickening,0,13368,71,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013368_000.png,0,0,0,0,1
+00025027_000.png,Consolidation|Pleural_Thickening,0,25027,38,F,PA,2021,2021,0.194311,0.194311,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00025027_000.png,0,0,0,0,1
+00020129_004.png,Consolidation|Mass|Nodule|Pleural_Thickening,4,20129,45,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00020129_004.png,0,0,0,0,1
+00025689_000.png,Atelectasis|Infiltration,0,25689,64,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025689_000.png,0,1,0,0,0
+00003180_000.png,Cardiomegaly,0,3180,49,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00003180_000.png,0,0,0,1,0
+00030572_000.png,Cardiomegaly,0,30572,52,F,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00030572_000.png,0,0,0,1,0
+00015693_001.png,Cardiomegaly|Infiltration,1,15693,52,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015693_001.png,0,0,0,1,0
+00029222_002.png,Atelectasis,2,29222,52,M,AP,2544,3056,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029222_002.png,0,1,0,0,0
+00021750_007.png,Consolidation,7,21750,68,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021750_007.png,0,0,0,0,1
+00008316_000.png,Cardiomegaly,0,8316,64,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00008316_000.png,0,0,0,1,0
+00028572_015.png,Atelectasis|Emphysema|Infiltration|Nodule|Pneumothorax,15,28572,54,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00028572_015.png,0,1,0,0,0
+00002594_004.png,Effusion|Infiltration,4,2594,35,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00002594_004.png,0,0,1,0,0
+00000294_000.png,Cardiomegaly,0,294,59,F,PA,2514,2533,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000294_000.png,0,0,0,1,0
+00010496_004.png,Edema|Infiltration,4,10496,45,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00010496_004.png,1,0,0,0,0
+00027299_005.png,Effusion|Mass,5,27299,28,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00027299_005.png,0,0,1,0,0
+00005989_000.png,Consolidation,0,5989,68,M,PA,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00005989_000.png,0,0,0,0,1
+00006832_014.png,Consolidation|Fibrosis|Mass|Pleural_Thickening,14,6832,19,M,PA,2048,2500,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00006832_014.png,0,0,0,0,1
+00027373_000.png,Atelectasis,0,27373,62,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027373_000.png,0,1,0,0,0
+00019809_000.png,Cardiomegaly,0,19809,60,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00019809_000.png,0,0,0,1,0
+00002919_000.png,Atelectasis,0,2919,53,F,PA,2706,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002919_000.png,0,1,0,0,0
+00021969_000.png,Edema,0,21969,56,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00021969_000.png,1,0,0,0,0
+00017136_000.png,Atelectasis|Mass|Nodule,0,17136,52,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017136_000.png,0,1,0,0,0
+00016292_003.png,Consolidation|Pleural_Thickening,3,16292,2,M,AP,2048,2500,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_008/images/00016292_003.png,0,0,0,0,1
+00013476_004.png,Effusion|Infiltration,4,13476,51,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00013476_004.png,0,0,1,0,0
+00020629_009.png,Edema,9,20629,56,F,AP,3056,2400,0.139,0.139,,['Edema'],1,Edema,data/nih/images_009/images/00020629_009.png,1,0,0,0,0
+00004530_002.png,Atelectasis,2,4530,51,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00004530_002.png,0,1,0,0,0
+00015072_005.png,Atelectasis,5,15072,61,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00015072_005.png,0,1,0,0,0
+00017410_006.png,Edema|Emphysema,6,17410,42,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_008/images/00017410_006.png,1,0,0,0,0
+00010841_007.png,Effusion|Emphysema|Infiltration|Pleural_Thickening,7,10841,63,M,PA,2502,2821,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010841_007.png,0,0,1,0,0
+00010684_004.png,Effusion,4,10684,59,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010684_004.png,0,0,1,0,0
+00017691_007.png,Edema,7,17691,63,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_008/images/00017691_007.png,1,0,0,0,0
+00004809_008.png,Cardiomegaly,8,4809,37,F,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00004809_008.png,0,0,0,1,0
+00009918_002.png,Consolidation|Infiltration,2,9918,61,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00009918_002.png,0,0,0,0,1
+00021547_001.png,Edema|Infiltration|Pneumonia,1,21547,51,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00021547_001.png,1,0,0,0,0
+00010475_013.png,Edema|Infiltration,13,10475,64,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00010475_013.png,1,0,0,0,0
+00025844_004.png,Atelectasis,4,25844,48,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025844_004.png,0,1,0,0,0
+00028856_001.png,Atelectasis|Pneumothorax,1,28856,56,F,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00028856_001.png,0,1,0,0,0
+00027322_007.png,Edema,7,27322,45,M,PA,2544,3056,0.139,0.139,,['Edema'],1,Edema,data/nih/images_011/images/00027322_007.png,1,0,0,0,0
+00002358_002.png,Effusion|Infiltration,2,2358,41,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00002358_002.png,0,0,1,0,0
+00003329_001.png,Consolidation,1,3329,36,M,PA,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_002/images/00003329_001.png,0,0,0,0,1
+00012742_000.png,Consolidation,0,12742,2,M,AP,2048,2500,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00012742_000.png,0,0,0,0,1
+00019994_002.png,Edema,2,19994,62,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_009/images/00019994_002.png,1,0,0,0,0
+00019757_001.png,Atelectasis,1,19757,67,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019757_001.png,0,1,0,0,0
+00029039_011.png,Effusion|Infiltration,11,29039,61,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029039_011.png,0,0,1,0,0
+00026721_000.png,Atelectasis,0,26721,56,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00026721_000.png,0,1,0,0,0
+00007494_000.png,Atelectasis,0,7494,48,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007494_000.png,0,1,0,0,0
+00010292_000.png,Consolidation|Fibrosis|Infiltration,0,10292,76,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010292_000.png,0,0,0,0,1
+00007946_004.png,Atelectasis,4,7946,58,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007946_004.png,0,1,0,0,0
+00014226_007.png,Edema,7,14226,54,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00014226_007.png,1,0,0,0,0
+00008858_004.png,Consolidation,4,8858,49,F,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00008858_004.png,0,0,0,0,1
+00022374_005.png,Atelectasis|Nodule,5,22374,52,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022374_005.png,0,1,0,0,0
+00001976_002.png,Consolidation|Mass,2,1976,55,M,PA,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_002/images/00001976_002.png,0,0,0,0,1
+00025167_001.png,Atelectasis,1,25167,38,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025167_001.png,0,1,0,0,0
+00002932_000.png,Cardiomegaly,0,2932,70,F,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00002932_000.png,0,0,0,1,0
+00001534_005.png,Cardiomegaly|Mass,5,1534,66,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00001534_005.png,0,0,0,1,0
+00029552_000.png,Cardiomegaly,0,29552,73,F,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00029552_000.png,0,0,0,1,0
+00019924_001.png,Atelectasis|Mass,1,19924,56,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019924_001.png,0,1,0,0,0
+00022263_003.png,Effusion|Nodule,3,22263,65,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00022263_003.png,0,0,1,0,0
+00000272_000.png,Cardiomegaly,0,272,28,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000272_000.png,0,0,0,1,0
+00027190_003.png,Atelectasis|Infiltration,3,27190,32,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027190_003.png,0,1,0,0,0
+00026136_003.png,Cardiomegaly,3,26136,64,F,PA,2544,3056,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00026136_003.png,0,0,0,1,0
+00025747_000.png,Cardiomegaly|Mass,0,25747,65,F,PA,2544,3056,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00025747_000.png,0,0,0,1,0
+00003702_001.png,Consolidation,1,3702,23,F,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_002/images/00003702_001.png,0,0,0,0,1
+00011495_004.png,Atelectasis,4,11495,51,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00011495_004.png,0,1,0,0,0
+00008898_000.png,Cardiomegaly,0,8898,48,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00008898_000.png,0,0,0,1,0
+00008708_000.png,Atelectasis|Infiltration,0,8708,35,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00008708_000.png,0,1,0,0,0
+00019289_004.png,Atelectasis|Infiltration,4,19289,61,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019289_004.png,0,1,0,0,0
+00002500_003.png,Atelectasis,3,2500,67,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002500_003.png,0,1,0,0,0
+00001200_009.png,Atelectasis|Infiltration,9,1200,24,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_001/images/00001200_009.png,0,1,0,0,0
+00022708_005.png,Effusion,5,22708,26,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00022708_005.png,0,0,1,0,0
+00014289_000.png,Effusion|Nodule,0,14289,52,F,PA,2662,2853,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014289_000.png,0,0,1,0,0
+00003093_000.png,Atelectasis,0,3093,26,M,PA,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003093_000.png,0,1,0,0,0
+00014571_013.png,Cardiomegaly,13,14571,77,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00014571_013.png,0,0,0,1,0
+00017854_000.png,Effusion,0,17854,63,F,AP,2048,2500,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00017854_000.png,0,0,1,0,0
+00004606_000.png,Cardiomegaly,0,4606,67,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00004606_000.png,0,0,0,1,0
+00023033_013.png,Atelectasis|Infiltration|Mass|Nodule,13,23033,64,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00023033_013.png,0,1,0,0,0
+00027492_006.png,Atelectasis,6,27492,66,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027492_006.png,0,1,0,0,0
+00017692_001.png,Atelectasis,1,17692,56,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017692_001.png,0,1,0,0,0
+00009609_004.png,Cardiomegaly,4,9609,52,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00009609_004.png,0,0,0,1,0
+00006517_004.png,Consolidation,4,6517,45,F,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00006517_004.png,0,0,0,0,1
+00016333_002.png,Atelectasis,2,16333,51,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016333_002.png,0,1,0,0,0
+00011800_000.png,Effusion|Infiltration|Mass,0,11800,59,M,PA,2946,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00011800_000.png,0,0,1,0,0
+00006744_000.png,Effusion,0,6744,51,F,AP,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00006744_000.png,0,0,1,0,0
+00013000_000.png,Effusion|Fibrosis,0,13000,63,M,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00013000_000.png,0,0,1,0,0
+00015666_001.png,Edema,1,15666,58,M,PA,2992,2991,0.143,0.143,,['Edema'],1,Edema,data/nih/images_007/images/00015666_001.png,1,0,0,0,0
+00021556_000.png,Atelectasis|Nodule,0,21556,51,F,PA,2566,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021556_000.png,0,1,0,0,0
+00029496_001.png,Effusion,1,29496,27,M,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029496_001.png,0,0,1,0,0
+00030597_000.png,Effusion|Nodule,0,30597,62,F,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00030597_000.png,0,0,1,0,0
+00009191_000.png,Cardiomegaly,0,9191,46,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00009191_000.png,0,0,0,1,0
+00000381_003.png,Atelectasis,3,381,58,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_001/images/00000381_003.png,0,1,0,0,0
+00017960_000.png,Atelectasis,0,17960,46,F,AP,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017960_000.png,0,1,0,0,0
+00025812_000.png,Atelectasis,0,25812,48,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025812_000.png,0,1,0,0,0
+00010454_000.png,Cardiomegaly,0,10454,43,F,PA,2598,2781,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00010454_000.png,0,0,0,1,0
+00008649_000.png,Cardiomegaly,0,8649,58,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00008649_000.png,0,0,0,1,0
+00030158_005.png,Atelectasis,5,30158,62,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00030158_005.png,0,1,0,0,0
+00028341_007.png,Consolidation,7,28341,10,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00028341_007.png,0,0,0,0,1
+00002064_004.png,Atelectasis,4,2064,33,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002064_004.png,0,1,0,0,0
+00005578_001.png,Consolidation|Nodule,1,5578,58,F,PA,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00005578_001.png,0,0,0,0,1
+00011549_000.png,Atelectasis,0,11549,18,F,PA,2510,2417,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00011549_000.png,0,1,0,0,0
+00021682_003.png,Effusion|Infiltration,3,21682,54,F,AP,3056,2300,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00021682_003.png,0,0,1,0,0
+00007442_017.png,Cardiomegaly|Infiltration,17,7442,35,F,AP,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00007442_017.png,0,0,0,1,0
+00025987_000.png,Cardiomegaly,0,25987,30,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00025987_000.png,0,0,0,1,0
+00005966_009.png,Atelectasis,9,5966,51,F,PA,2048,2500,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005966_009.png,0,1,0,0,0
+00007755_000.png,Atelectasis,0,7755,48,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007755_000.png,0,1,0,0,0
+00007687_001.png,Atelectasis|Fibrosis,1,7687,29,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007687_001.png,0,1,0,0,0
+00007932_003.png,Atelectasis,3,7932,51,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007932_003.png,0,1,0,0,0
+00028208_004.png,Effusion|Pneumothorax,4,28208,64,M,PA,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00028208_004.png,0,0,1,0,0
+00022596_006.png,Atelectasis,6,22596,53,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022596_006.png,0,1,0,0,0
+00022014_001.png,Atelectasis,1,22014,72,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022014_001.png,0,1,0,0,0
+00006182_006.png,Atelectasis|Mass,6,6182,50,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00006182_006.png,0,1,0,0,0
+00008238_000.png,Atelectasis,0,8238,66,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00008238_000.png,0,1,0,0,0
+00014177_007.png,Effusion|Pneumonia,7,14177,38,M,PA,2726,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014177_007.png,0,0,1,0,0
+00007624_027.png,Effusion|Infiltration,27,7624,25,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00007624_027.png,0,0,1,0,0
+00022237_001.png,Atelectasis,1,22237,68,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022237_001.png,0,1,0,0,0
+00016789_009.png,Edema,9,16789,35,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_008/images/00016789_009.png,1,0,0,0,0
+00010991_002.png,Edema,2,10991,48,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00010991_002.png,1,0,0,0,0
+00016189_001.png,Atelectasis,1,16189,58,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016189_001.png,0,1,0,0,0
+00014251_026.png,Effusion|Infiltration|Mass,26,14251,71,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014251_026.png,0,0,1,0,0
+00005806_002.png,Edema|Pneumonia,2,5806,44,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_003/images/00005806_002.png,1,0,0,0,0
+00001777_002.png,Cardiomegaly|Infiltration,2,1777,72,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00001777_002.png,0,0,0,1,0
+00006739_003.png,Atelectasis,3,6739,52,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00006739_003.png,0,1,0,0,0
+00030488_000.png,Consolidation,0,30488,53,M,PA,2021,2021,0.194311,0.194311,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00030488_000.png,0,0,0,0,1
+00009949_000.png,Effusion|Infiltration,0,9949,41,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00009949_000.png,0,0,1,0,0
+00017945_000.png,Cardiomegaly,0,17945,65,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00017945_000.png,0,0,0,1,0
+00013627_004.png,Consolidation,4,13627,54,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013627_004.png,0,0,0,0,1
+00020081_000.png,Edema|Nodule,0,20081,64,M,PA,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_009/images/00020081_000.png,1,0,0,0,0
+00021484_002.png,Atelectasis,2,21484,61,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021484_002.png,0,1,0,0,0
+00001796_005.png,Atelectasis,5,1796,64,F,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00001796_005.png,0,1,0,0,0
+00005391_004.png,Atelectasis|Infiltration,4,5391,72,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005391_004.png,0,1,0,0,0
+00025238_017.png,Atelectasis|Infiltration,17,25238,29,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025238_017.png,0,1,0,0,0
+00023104_000.png,Effusion|Mass,0,23104,69,F,PA,2642,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00023104_000.png,0,0,1,0,0
+00029225_000.png,Cardiomegaly|Mass,0,29225,70,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00029225_000.png,0,0,0,1,0
+00004413_000.png,Effusion,0,4413,45,M,PA,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00004413_000.png,0,0,1,0,0
+00030280_005.png,Edema,5,30280,46,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00030280_005.png,1,0,0,0,0
+00015640_006.png,Atelectasis,6,15640,44,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00015640_006.png,0,1,0,0,0
+00029465_001.png,Consolidation,1,29465,55,F,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00029465_001.png,0,0,0,0,1
+00008875_022.png,Edema,22,8875,65,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_004/images/00008875_022.png,1,0,0,0,0
+00022283_037.png,Cardiomegaly|Mass,37,22283,60,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00022283_037.png,0,0,0,1,0
+00011950_016.png,Effusion,16,11950,64,F,PA,2758,2661,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00011950_016.png,0,0,1,0,0
+00023647_000.png,Cardiomegaly,0,23647,39,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00023647_000.png,0,0,0,1,0
+00013673_007.png,Edema|Infiltration|Mass|Nodule|Pneumonia,7,13673,46,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_006/images/00013673_007.png,1,0,0,0,0
+00006182_005.png,Atelectasis|Nodule,5,6182,50,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00006182_005.png,0,1,0,0,0
+00029863_010.png,Atelectasis,10,29863,58,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029863_010.png,0,1,0,0,0
+00021627_000.png,Atelectasis,0,21627,42,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021627_000.png,0,1,0,0,0
+00022084_000.png,Edema|Pneumonia,0,22084,48,F,PA,2544,2796,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00022084_000.png,1,0,0,0,0
+00010613_019.png,Effusion,19,10613,57,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010613_019.png,0,0,1,0,0
+00026634_000.png,Cardiomegaly,0,26634,5,M,PA,2544,3056,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00026634_000.png,0,0,0,1,0
+00017786_004.png,Atelectasis,4,17786,51,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017786_004.png,0,1,0,0,0
+00004017_000.png,Consolidation|Mass|Pleural_Thickening,0,4017,62,F,PA,2048,2500,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00004017_000.png,0,0,0,0,1
+00011557_003.png,Cardiomegaly|Infiltration,3,11557,36,M,PA,2834,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00011557_003.png,0,0,0,1,0
+00016606_000.png,Cardiomegaly,0,16606,62,M,PA,2894,2981,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00016606_000.png,0,0,0,1,0
+00003446_007.png,Atelectasis|Infiltration,7,3446,49,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003446_007.png,0,1,0,0,0
+00003186_004.png,Edema|Infiltration,4,3186,47,F,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_002/images/00003186_004.png,1,0,0,0,0
+00002119_000.png,Consolidation,0,2119,53,F,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_002/images/00002119_000.png,0,0,0,0,1
+00020410_005.png,Consolidation,5,20410,82,F,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00020410_005.png,0,0,0,0,1
+00016406_002.png,Edema,2,16406,43,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_008/images/00016406_002.png,1,0,0,0,0
+00021448_000.png,Edema|Infiltration|Mass|Pneumothorax,0,21448,54,F,PA,2544,3056,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00021448_000.png,1,0,0,0,0
+00012236_005.png,Edema,5,12236,48,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_006/images/00012236_005.png,1,0,0,0,0
+00003239_002.png,Edema,2,3239,66,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_002/images/00003239_002.png,1,0,0,0,0
+00015893_003.png,Edema|Nodule,3,15893,27,F,PA,2992,2991,0.143,0.143,,['Edema'],1,Edema,data/nih/images_007/images/00015893_003.png,1,0,0,0,0
+00005457_001.png,Consolidation,1,5457,70,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00005457_001.png,0,0,0,0,1
+00001638_001.png,Consolidation|Fibrosis|Pleural_Thickening,1,1638,30,F,PA,2434,2521,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_002/images/00001638_001.png,0,0,0,0,1
+00012898_000.png,Cardiomegaly,0,12898,47,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00012898_000.png,0,0,0,1,0
+00003720_000.png,Atelectasis|Mass|Nodule,0,3720,43,M,PA,2048,2500,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003720_000.png,0,1,0,0,0
+00018859_000.png,Atelectasis|Fibrosis|Nodule,0,18859,51,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018859_000.png,0,1,0,0,0
+00002633_009.png,Effusion|Pneumothorax,9,2633,45,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00002633_009.png,0,0,1,0,0
+00015676_007.png,Consolidation|Fibrosis|Pleural_Thickening,7,15676,20,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00015676_007.png,0,0,0,0,1
+00022132_002.png,Effusion|Pneumothorax,2,22132,57,F,PA,2590,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00022132_002.png,0,0,1,0,0
+00010940_001.png,Atelectasis,1,10940,57,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00010940_001.png,0,1,0,0,0
+00021273_000.png,Consolidation|Mass|Pleural_Thickening,0,21273,50,F,PA,2406,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021273_000.png,0,0,0,0,1
+00019967_013.png,Consolidation|Infiltration,13,19967,6,M,AP,2544,3056,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00019967_013.png,0,0,0,0,1
+00018940_004.png,Cardiomegaly|Infiltration,4,18940,73,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00018940_004.png,0,0,0,1,0
+00027760_000.png,Consolidation,0,27760,38,F,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00027760_000.png,0,0,0,0,1
+00011495_001.png,Atelectasis,1,11495,51,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00011495_001.png,0,1,0,0,0
+00013415_001.png,Cardiomegaly|Infiltration,1,13415,47,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00013415_001.png,0,0,0,1,0
+00015170_003.png,Atelectasis,3,15170,52,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00015170_003.png,0,1,0,0,0
+00010496_003.png,Edema|Infiltration,3,10496,45,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00010496_003.png,1,0,0,0,0
+00019992_004.png,Consolidation|Infiltration,4,19992,58,F,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00019992_004.png,0,0,0,0,1
+00006741_008.png,Consolidation|Pleural_Thickening,8,6741,54,F,PA,2538,2813,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00006741_008.png,0,0,0,0,1
+00016919_010.png,Effusion,10,16919,42,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00016919_010.png,0,0,1,0,0
+00021982_004.png,Consolidation,4,21982,69,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021982_004.png,0,0,0,0,1
+00025510_001.png,Atelectasis,1,25510,35,M,PA,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025510_001.png,0,1,0,0,0
+00007274_003.png,Edema,3,7274,32,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_004/images/00007274_003.png,1,0,0,0,0
+00027631_000.png,Effusion,0,27631,63,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00027631_000.png,0,0,1,0,0
+00019647_002.png,Consolidation,2,19647,48,F,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00019647_002.png,0,0,0,0,1
+00029478_006.png,Atelectasis,6,29478,43,F,PA,2544,3056,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029478_006.png,0,1,0,0,0
+00026653_000.png,Consolidation|Nodule,0,26653,44,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00026653_000.png,0,0,0,0,1
+00026860_003.png,Edema|Infiltration,3,26860,44,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_011/images/00026860_003.png,1,0,0,0,0
+00027628_006.png,Consolidation|Emphysema,6,27628,46,F,PA,2021,2021,0.194311,0.194311,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00027628_006.png,0,0,0,0,1
+00015425_012.png,Cardiomegaly,12,15425,51,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015425_012.png,0,0,0,1,0
+00017949_000.png,Cardiomegaly,0,17949,33,F,PA,2782,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00017949_000.png,0,0,0,1,0
+00017436_000.png,Cardiomegaly,0,17436,68,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00017436_000.png,0,0,0,1,0
+00021670_028.png,Cardiomegaly,28,21670,40,M,PA,2822,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00021670_028.png,0,0,0,1,0
+00007806_000.png,Atelectasis,0,7806,66,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007806_000.png,0,1,0,0,0
+00023007_000.png,Effusion,0,23007,48,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00023007_000.png,0,0,1,0,0
+00005746_004.png,Consolidation,4,5746,47,F,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00005746_004.png,0,0,0,0,1
+00015300_002.png,Atelectasis|Infiltration,2,15300,53,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00015300_002.png,0,1,0,0,0
+00000938_002.png,Edema,2,938,58,F,AP,3048,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_001/images/00000938_002.png,1,0,0,0,0
+00022943_003.png,Consolidation|Infiltration,3,22943,25,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00022943_003.png,0,0,0,0,1
+00012572_001.png,Consolidation|Fibrosis,1,12572,65,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00012572_001.png,0,0,0,0,1
+00016958_000.png,Consolidation|Emphysema|Mass,0,16958,56,M,PA,2634,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_008/images/00016958_000.png,0,0,0,0,1
+00018349_000.png,Cardiomegaly|Hernia|Infiltration,0,18349,66,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00018349_000.png,0,0,0,1,0
+00009174_000.png,Cardiomegaly,0,9174,64,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00009174_000.png,0,0,0,1,0
+00028842_000.png,Atelectasis|Infiltration|Pleural_Thickening,0,28842,66,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00028842_000.png,0,1,0,0,0
+00019765_008.png,Atelectasis|Infiltration,8,19765,72,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019765_008.png,0,1,0,0,0
+00016511_000.png,Atelectasis,0,16511,52,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016511_000.png,0,1,0,0,0
+00019000_000.png,Effusion|Infiltration|Mass|Nodule,0,19000,63,M,PA,2754,2623,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00019000_000.png,0,0,1,0,0
+00029039_010.png,Edema|Infiltration|Pneumonia|Pneumothorax,10,29039,61,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00029039_010.png,1,0,0,0,0
+00008226_004.png,Cardiomegaly,4,8226,46,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00008226_004.png,0,0,0,1,0
+00026543_002.png,Atelectasis|Nodule,2,26543,54,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00026543_002.png,0,1,0,0,0
+00014081_002.png,Edema,2,14081,49,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00014081_002.png,1,0,0,0,0
+00007882_000.png,Effusion|Nodule,0,7882,58,M,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00007882_000.png,0,0,1,0,0
+00029532_012.png,Atelectasis,12,29532,57,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029532_012.png,0,1,0,0,0
+00001986_008.png,Atelectasis|Infiltration,8,1986,59,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00001986_008.png,0,1,0,0,0
+00005699_004.png,Cardiomegaly,4,5699,36,F,AP,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00005699_004.png,0,0,0,1,0
+00006981_005.png,Edema,5,6981,60,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_004/images/00006981_005.png,1,0,0,0,0
+00008067_026.png,Consolidation|Infiltration,26,8067,44,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00008067_026.png,0,0,0,0,1
+00022237_021.png,Edema|Infiltration,21,22237,70,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00022237_021.png,1,0,0,0,0
+00025122_001.png,Atelectasis,1,25122,57,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025122_001.png,0,1,0,0,0
+00004514_001.png,Effusion|Infiltration,1,4514,38,M,AP,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00004514_001.png,0,0,1,0,0
+00015401_007.png,Cardiomegaly,7,15401,58,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015401_007.png,0,0,0,1,0
+00020471_003.png,Consolidation|Infiltration,3,20471,53,M,PA,2648,2468,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00020471_003.png,0,0,0,0,1
+00001332_000.png,Consolidation|Nodule,0,1332,14,M,AP,2048,2500,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_001/images/00001332_000.png,0,0,0,0,1
+00017943_000.png,Effusion,0,17943,31,F,PA,2838,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00017943_000.png,0,0,1,0,0
+00010270_009.png,Consolidation,9,10270,16,M,PA,2992,2717,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010270_009.png,0,0,0,0,1
+00030152_000.png,Edema|Infiltration|Pneumonia,0,30152,16,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00030152_000.png,1,0,0,0,0
+00001202_001.png,Effusion,1,1202,46,F,PA,2048,2500,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_001/images/00001202_001.png,0,0,1,0,0
+00009234_001.png,Edema|Infiltration,1,9234,46,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00009234_001.png,1,0,0,0,0
+00004965_001.png,Atelectasis,1,4965,51,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00004965_001.png,0,1,0,0,0
+00026751_002.png,Atelectasis|Infiltration,2,26751,69,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00026751_002.png,0,1,0,0,0
+00028070_001.png,Consolidation|Mass,1,28070,71,F,PA,2544,3056,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00028070_001.png,0,0,0,0,1
+00028794_000.png,Cardiomegaly,0,28794,35,F,PA,1733,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00028794_000.png,0,0,0,1,0
+00005506_000.png,Effusion|Infiltration|Nodule,0,5506,21,M,PA,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005506_000.png,0,0,1,0,0
+00015172_001.png,Edema,1,15172,29,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00015172_001.png,1,0,0,0,0
+00019535_004.png,Atelectasis|Infiltration,4,19535,28,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019535_004.png,0,1,0,0,0
+00000710_005.png,Effusion|Emphysema,5,710,58,F,PA,2486,2725,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_001/images/00000710_005.png,0,0,1,0,0
+00000240_000.png,Cardiomegaly,0,240,62,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000240_000.png,0,0,0,1,0
+00005912_000.png,Effusion,0,5912,51,F,AP,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005912_000.png,0,0,1,0,0
+00003394_006.png,Cardiomegaly,6,3394,69,M,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00003394_006.png,0,0,0,1,0
+00027797_000.png,Cardiomegaly,0,27797,54,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00027797_000.png,0,0,0,1,0
+00009547_002.png,Atelectasis,2,9547,65,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00009547_002.png,0,1,0,0,0
+00007442_004.png,Edema|Infiltration,4,7442,35,F,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_004/images/00007442_004.png,1,0,0,0,0
+00019495_002.png,Atelectasis|Nodule,2,19495,71,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019495_002.png,0,1,0,0,0
+00026635_000.png,Cardiomegaly,0,26635,13,M,PA,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00026635_000.png,0,0,0,1,0
+00013709_000.png,Cardiomegaly,0,13709,45,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00013709_000.png,0,0,0,1,0
+00010465_002.png,Edema|Infiltration,2,10465,34,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00010465_002.png,1,0,0,0,0
+00006298_001.png,Atelectasis,1,6298,50,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00006298_001.png,0,1,0,0,0
+00013964_000.png,Consolidation|Mass,0,13964,22,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00013964_000.png,0,0,0,0,1
+00015495_002.png,Consolidation|Nodule,2,15495,55,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00015495_002.png,0,0,0,0,1
+00012161_021.png,Effusion|Infiltration,21,12161,62,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00012161_021.png,0,0,1,0,0
+00027694_000.png,Cardiomegaly|Mass,0,27694,55,M,PA,2814,2841,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00027694_000.png,0,0,0,1,0
+00016693_001.png,Effusion|Mass,1,16693,59,M,PA,2758,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00016693_001.png,0,0,1,0,0
+00005051_005.png,Effusion,5,5051,60,F,AP,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005051_005.png,0,0,1,0,0
+00027907_001.png,Cardiomegaly,1,27907,61,F,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00027907_001.png,0,0,0,1,0
+00000825_003.png,Cardiomegaly,3,825,87,F,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000825_003.png,0,0,0,1,0
+00014618_004.png,Edema|Infiltration,4,14618,57,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00014618_004.png,1,0,0,0,0
+00021361_004.png,Effusion|Infiltration,4,21361,18,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00021361_004.png,0,0,1,0,0
+00022779_000.png,Cardiomegaly,0,22779,48,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00022779_000.png,0,0,0,1,0
+00004847_000.png,Cardiomegaly,0,4847,41,F,AP,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00004847_000.png,0,0,0,1,0
+00013192_000.png,Consolidation|Infiltration|Nodule,0,13192,60,F,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013192_000.png,0,0,0,0,1
+00005089_018.png,Cardiomegaly|Pleural_Thickening,18,5089,35,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00005089_018.png,0,0,0,1,0
+00019861_004.png,Cardiomegaly|Nodule,4,19861,65,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00019861_004.png,0,0,0,1,0
+00029222_004.png,Atelectasis,4,29222,53,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029222_004.png,0,1,0,0,0
+00017988_002.png,Cardiomegaly,2,17988,76,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00017988_002.png,0,0,0,1,0
+00018749_002.png,Effusion,2,18749,55,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00018749_002.png,0,0,1,0,0
+00007949_004.png,Atelectasis,4,7949,38,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007949_004.png,0,1,0,0,0
+00005543_000.png,Cardiomegaly,0,5543,51,M,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00005543_000.png,0,0,0,1,0
+00022916_000.png,Atelectasis,0,22916,78,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00022916_000.png,0,1,0,0,0
+00000468_029.png,Cardiomegaly|Infiltration|Nodule|Pneumonia,29,468,31,M,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000468_029.png,0,0,0,1,0
+00018721_006.png,Consolidation,6,18721,42,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00018721_006.png,0,0,0,0,1
+00006832_004.png,Consolidation|Mass|Nodule,4,6832,18,M,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00006832_004.png,0,0,0,0,1
+00003841_012.png,Atelectasis,12,3841,41,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003841_012.png,0,1,0,0,0
+00029821_013.png,Effusion|Emphysema|Infiltration|Pleural_Thickening,13,29821,59,F,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029821_013.png,0,0,1,0,0
+00006291_000.png,Consolidation|Nodule,0,6291,71,F,PA,2544,3056,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00006291_000.png,0,0,0,0,1
+00030152_006.png,Consolidation,6,30152,16,F,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00030152_006.png,0,0,0,0,1
+00023487_003.png,Cardiomegaly,3,23487,52,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00023487_003.png,0,0,0,1,0
+00012515_005.png,Atelectasis,5,12515,28,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00012515_005.png,0,1,0,0,0
+00019299_008.png,Consolidation|Infiltration,8,19299,59,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00019299_008.png,0,0,0,0,1
+00013002_011.png,Edema,11,13002,66,F,PA,2526,2991,0.143,0.143,,['Edema'],1,Edema,data/nih/images_006/images/00013002_011.png,1,0,0,0,0
+00023335_000.png,Cardiomegaly,0,23335,44,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00023335_000.png,0,0,0,1,0
+00010001_001.png,Atelectasis,1,10001,48,F,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00010001_001.png,0,1,0,0,0
+00002655_003.png,Edema,3,2655,38,M,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_002/images/00002655_003.png,1,0,0,0,0
+00026576_007.png,Edema|Pneumonia,7,26576,56,F,AP,3008,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_011/images/00026576_007.png,1,0,0,0,0
+00004317_000.png,Consolidation|Infiltration|Mass,0,4317,40,M,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00004317_000.png,0,0,0,0,1
+00013101_000.png,Cardiomegaly|Fibrosis|Nodule,0,13101,77,M,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00013101_000.png,0,0,0,1,0
+00004144_000.png,Cardiomegaly,0,4144,65,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00004144_000.png,0,0,0,1,0
+00003095_001.png,Atelectasis|Pneumonia,1,3095,51,M,PA,2990,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003095_001.png,0,1,0,0,0
+00010479_011.png,Atelectasis,11,10479,28,F,AP,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00010479_011.png,0,1,0,0,0
+00021953_000.png,Consolidation,0,21953,8,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021953_000.png,0,0,0,0,1
+00007721_000.png,Consolidation|Fibrosis|Infiltration,0,7721,81,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00007721_000.png,0,0,0,0,1
+00029795_003.png,Effusion,3,29795,48,F,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029795_003.png,0,0,1,0,0
+00028208_030.png,Consolidation|Emphysema|Pneumothorax,30,28208,64,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00028208_030.png,0,0,0,0,1
+00018749_006.png,Atelectasis,6,18749,55,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018749_006.png,0,1,0,0,0
+00028341_004.png,Consolidation|Infiltration|Pleural_Thickening,4,28341,10,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_012/images/00028341_004.png,0,0,0,0,1
+00009196_001.png,Cardiomegaly,1,9196,60,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00009196_001.png,0,0,0,1,0
+00029863_012.png,Atelectasis|Nodule,12,29863,58,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029863_012.png,0,1,0,0,0
+00021351_000.png,Consolidation,0,21351,72,F,PA,2386,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021351_000.png,0,0,0,0,1
+00020684_000.png,Cardiomegaly,0,20684,23,F,PA,2510,2593,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00020684_000.png,0,0,0,1,0
+00012957_001.png,Atelectasis|Infiltration,1,12957,36,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00012957_001.png,0,1,0,0,0
+00027838_009.png,Edema,9,27838,49,F,PA,2021,2021,0.194311,0.194311,,['Edema'],1,Edema,data/nih/images_011/images/00027838_009.png,1,0,0,0,0
+00023211_020.png,Edema|Infiltration,20,23211,30,F,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_010/images/00023211_020.png,1,0,0,0,0
+00025962_000.png,Consolidation|Infiltration|Pneumonia,0,25962,18,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00025962_000.png,0,0,0,0,1
+00019894_014.png,Effusion,14,19894,61,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00019894_014.png,0,0,1,0,0
+00011049_004.png,Atelectasis|Infiltration,4,11049,59,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00011049_004.png,0,1,0,0,0
+00006209_000.png,Consolidation,0,6209,58,M,PA,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00006209_000.png,0,0,0,0,1
+00012294_012.png,Consolidation|Pleural_Thickening,12,12294,37,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00012294_012.png,0,0,0,0,1
+00008195_000.png,Effusion|Pleural_Thickening,0,8195,55,F,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00008195_000.png,0,0,1,0,0
+00030628_002.png,Effusion,2,30628,28,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00030628_002.png,0,0,1,0,0
+00003209_003.png,Cardiomegaly,3,3209,39,F,PA,2518,2609,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00003209_003.png,0,0,0,1,0
+00007823_001.png,Atelectasis|Infiltration|Pneumothorax,1,7823,73,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007823_001.png,0,1,0,0,0
+00005144_001.png,Effusion,1,5144,37,F,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005144_001.png,0,0,1,0,0
+00002633_033.png,Effusion|Pleural_Thickening,33,2633,45,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00002633_033.png,0,0,1,0,0
+00010767_015.png,Effusion|Emphysema,15,10767,57,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010767_015.png,0,0,1,0,0
+00009401_002.png,Effusion,2,9401,80,M,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00009401_002.png,0,0,1,0,0
+00029638_000.png,Effusion|Mass,0,29638,63,F,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029638_000.png,0,0,1,0,0
+00004706_002.png,Atelectasis,2,4706,66,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00004706_002.png,0,1,0,0,0
+00001397_008.png,Atelectasis|Pneumothorax,8,1397,59,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00001397_008.png,0,1,0,0,0
+00009050_000.png,Cardiomegaly,0,9050,50,M,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00009050_000.png,0,0,0,1,0
+00003552_000.png,Cardiomegaly,0,3552,26,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00003552_000.png,0,0,0,1,0
+00011723_043.png,Consolidation|Mass,43,11723,67,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00011723_043.png,0,0,0,0,1
+00018148_000.png,Consolidation|Nodule,0,18148,62,F,PA,2048,2500,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_008/images/00018148_000.png,0,0,0,0,1
+00003377_013.png,Effusion,13,3377,60,F,PA,2518,2649,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00003377_013.png,0,0,1,0,0
+00006129_000.png,Cardiomegaly,0,6129,30,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00006129_000.png,0,0,0,1,0
+00007624_026.png,Effusion|Infiltration,26,7624,25,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00007624_026.png,0,0,1,0,0
+00019924_024.png,Atelectasis|Infiltration,24,19924,56,F,AP,3012,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019924_024.png,0,1,0,0,0
+00026522_000.png,Cardiomegaly,0,26522,43,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00026522_000.png,0,0,0,1,0
+00014306_005.png,Effusion,5,14306,44,M,PA,2992,2989,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014306_005.png,0,0,1,0,0
+00028899_002.png,Effusion|Infiltration|Pleural_Thickening,2,28899,60,F,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00028899_002.png,0,0,1,0,0
+00010808_000.png,Cardiomegaly,0,10808,39,F,PA,2544,3056,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00010808_000.png,0,0,0,1,0
+00028544_009.png,Effusion|Pneumothorax,9,28544,15,F,PA,1705,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00028544_009.png,0,0,1,0,0
+00029393_003.png,Edema|Infiltration,3,29393,27,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00029393_003.png,1,0,0,0,0
+00002594_002.png,Effusion,2,2594,35,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00002594_002.png,0,0,1,0,0
+00012931_008.png,Edema|Infiltration,8,12931,47,F,PA,2992,2991,0.143,0.143,,['Edema'],1,Edema,data/nih/images_006/images/00012931_008.png,1,0,0,0,0
+00029649_005.png,Effusion,5,29649,27,F,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029649_005.png,0,0,1,0,0
+00014664_013.png,Effusion,13,14664,57,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014664_013.png,0,0,1,0,0
+00009770_000.png,Atelectasis|Infiltration|Nodule,0,9770,36,M,PA,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00009770_000.png,0,1,0,0,0
+00010830_006.png,Consolidation|Infiltration,6,10830,61,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010830_006.png,0,0,0,0,1
+00016891_000.png,Effusion|Mass,0,16891,48,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00016891_000.png,0,0,1,0,0
+00019370_001.png,Consolidation,1,19370,45,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00019370_001.png,0,0,0,0,1
+00016207_005.png,Atelectasis,5,16207,75,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016207_005.png,0,1,0,0,0
+00005612_006.png,Effusion|Pleural_Thickening,6,5612,57,F,PA,2048,2500,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_003/images/00005612_006.png,0,0,1,0,0
+00007943_004.png,Consolidation|Nodule,4,7943,71,M,PA,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00007943_004.png,0,0,0,0,1
+00005683_002.png,Atelectasis,2,5683,53,M,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_003/images/00005683_002.png,0,1,0,0,0
+00002156_001.png,Atelectasis,1,2156,67,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002156_001.png,0,1,0,0,0
+00001816_001.png,Effusion,1,1816,65,M,PA,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00001816_001.png,0,0,1,0,0
+00027243_001.png,Atelectasis,1,27243,51,F,PA,1930,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027243_001.png,0,1,0,0,0
+00025691_004.png,Effusion,4,25691,75,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00025691_004.png,0,0,1,0,0
+00005674_001.png,Consolidation|Nodule,1,5674,53,M,PA,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00005674_001.png,0,0,0,0,1
+00012132_002.png,Effusion,2,12132,50,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00012132_002.png,0,0,1,0,0
+00002817_005.png,Atelectasis,5,2817,65,F,PA,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00002817_005.png,0,1,0,0,0
+00006763_007.png,Consolidation,7,6763,13,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_004/images/00006763_007.png,0,0,0,0,1
+00010095_000.png,Cardiomegaly,0,10095,56,F,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00010095_000.png,0,0,0,1,0
+00001756_001.png,Atelectasis|Infiltration,1,1756,55,F,PA,2920,2619,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00001756_001.png,0,1,0,0,0
+00018853_004.png,Edema,4,18853,31,F,PA,2614,2857,0.143,0.143,,['Edema'],1,Edema,data/nih/images_009/images/00018853_004.png,1,0,0,0,0
+00010471_004.png,Edema,4,10471,77,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_005/images/00010471_004.png,1,0,0,0,0
+00027908_004.png,Cardiomegaly,4,27908,67,F,AP,3056,2524,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_011/images/00027908_004.png,0,0,0,1,0
+00016556_002.png,Atelectasis|Mass|Nodule,2,16556,63,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016556_002.png,0,1,0,0,0
+00018919_000.png,Atelectasis,0,18919,49,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018919_000.png,0,1,0,0,0
+00011097_002.png,Edema|Pneumonia,2,11097,43,M,PA,2021,1862,0.194311,0.194311,,['Edema'],1,Edema,data/nih/images_005/images/00011097_002.png,1,0,0,0,0
+00001097_000.png,Cardiomegaly|Mass,0,1097,82,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00001097_000.png,0,0,0,1,0
+00025360_005.png,Effusion,5,25360,58,F,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00025360_005.png,0,0,1,0,0
+00015282_000.png,Cardiomegaly,0,15282,35,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015282_000.png,0,0,0,1,0
+00030490_000.png,Cardiomegaly,0,30490,38,M,PA,2021,2020,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00030490_000.png,0,0,0,1,0
+00002084_000.png,Cardiomegaly,0,2084,51,M,PA,2830,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00002084_000.png,0,0,0,1,0
+00020461_000.png,Atelectasis,0,20461,56,F,PA,2394,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00020461_000.png,0,1,0,0,0
+00010092_014.png,Consolidation|Mass,14,10092,47,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010092_014.png,0,0,0,0,1
+00019861_006.png,Cardiomegaly,6,19861,66,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00019861_006.png,0,0,0,1,0
+00011785_001.png,Atelectasis,1,11785,16,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00011785_001.png,0,1,0,0,0
+00004299_011.png,Edema,11,4299,81,M,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_003/images/00004299_011.png,1,0,0,0,0
+00028131_006.png,Effusion|Infiltration,6,28131,51,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00028131_006.png,0,0,1,0,0
+00028071_003.png,Atelectasis,3,28071,58,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00028071_003.png,0,1,0,0,0
+00013415_000.png,Cardiomegaly,0,13415,47,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00013415_000.png,0,0,0,1,0
+00019647_006.png,Atelectasis,6,19647,48,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019647_006.png,0,1,0,0,0
+00013911_006.png,Effusion|Infiltration,6,13911,64,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00013911_006.png,0,0,1,0,0
+00029840_002.png,Edema|Infiltration,2,29840,31,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00029840_002.png,1,0,0,0,0
+00011792_002.png,Effusion|Fibrosis|Infiltration,2,11792,49,M,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00011792_002.png,0,0,1,0,0
+00011679_008.png,Atelectasis,8,11679,19,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00011679_008.png,0,1,0,0,0
+00016282_000.png,Cardiomegaly,0,16282,80,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00016282_000.png,0,0,0,1,0
+00027618_004.png,Atelectasis|Infiltration,4,27618,21,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027618_004.png,0,1,0,0,0
+00016867_002.png,Atelectasis,2,16867,52,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016867_002.png,0,1,0,0,0
+00004892_000.png,Cardiomegaly,0,4892,39,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00004892_000.png,0,0,0,1,0
+00010684_005.png,Effusion|Infiltration,5,10684,59,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010684_005.png,0,0,1,0,0
+00015462_000.png,Consolidation|Infiltration|Pneumonia,0,15462,3,F,AP,2048,2500,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_007/images/00015462_000.png,0,0,0,0,1
+00021967_000.png,Effusion|Infiltration,0,21967,61,M,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00021967_000.png,0,0,1,0,0
+00008185_005.png,Effusion|Emphysema,5,8185,65,M,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00008185_005.png,0,0,1,0,0
+00025093_001.png,Effusion,1,25093,49,F,AP,3040,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00025093_001.png,0,0,1,0,0
+00021398_001.png,Effusion|Nodule,1,21398,61,M,PA,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00021398_001.png,0,0,1,0,0
+00013904_002.png,Effusion|Nodule,2,13904,42,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00013904_002.png,0,0,1,0,0
+00007458_002.png,Effusion,2,7458,61,M,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00007458_002.png,0,0,1,0,0
+00006051_001.png,Edema|Mass,1,6051,49,M,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_003/images/00006051_001.png,1,0,0,0,0
+00029756_000.png,Effusion|Nodule,0,29756,51,M,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029756_000.png,0,0,1,0,0
+00024264_000.png,Cardiomegaly,0,24264,22,M,PA,2974,2677,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00024264_000.png,0,0,0,1,0
+00003186_005.png,Edema|Infiltration,5,3186,47,F,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_002/images/00003186_005.png,1,0,0,0,0
+00003693_001.png,Edema,1,3693,66,F,AP,2500,2048,0.171,0.171,,['Edema'],1,Edema,data/nih/images_002/images/00003693_001.png,1,0,0,0,0
+00014725_003.png,Edema|Infiltration|Pneumonia,3,14725,28,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00014725_003.png,1,0,0,0,0
+00000963_024.png,Effusion,24,963,40,M,PA,2774,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_001/images/00000963_024.png,0,0,1,0,0
+00029052_011.png,Effusion|Pneumothorax,11,29052,77,M,PA,2021,2021,0.194311,0.194311,,['Effusion'],1,Pleural Effusion,data/nih/images_012/images/00029052_011.png,0,0,1,0,0
+00019702_001.png,Cardiomegaly,1,19702,61,F,PA,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00019702_001.png,0,0,0,1,0
+00009912_002.png,Cardiomegaly,2,9912,27,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00009912_002.png,0,0,0,1,0
+00025490_000.png,Effusion,0,25490,57,F,PA,2852,2878,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00025490_000.png,0,0,1,0,0
+00013211_000.png,Consolidation|Pneumonia,0,13211,75,F,AP,2544,3056,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00013211_000.png,0,0,0,0,1
+00006996_006.png,Effusion,6,6996,45,M,AP,2500,2048,0.171,0.171,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00006996_006.png,0,0,1,0,0
+00023149_001.png,Effusion|Mass,1,23149,60,M,PA,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_010/images/00023149_001.png,0,0,1,0,0
+00019480_001.png,Effusion,1,19480,47,F,PA,2614,2629,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00019480_001.png,0,0,1,0,0
+00012877_000.png,Atelectasis,0,12877,53,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00012877_000.png,0,1,0,0,0
+00016806_001.png,Atelectasis,1,16806,21,F,PA,2048,2500,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016806_001.png,0,1,0,0,0
+00028916_000.png,Cardiomegaly,0,28916,84,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00028916_000.png,0,0,0,1,0
+00029431_000.png,Edema|Infiltration|Pneumonia,0,29431,65,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00029431_000.png,1,0,0,0,0
+00018496_001.png,Effusion|Pneumothorax,1,18496,70,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00018496_001.png,0,0,1,0,0
+00000845_000.png,Cardiomegaly,0,845,65,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000845_000.png,0,0,0,1,0
+00010794_000.png,Effusion,0,10794,23,F,PA,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_005/images/00010794_000.png,0,0,1,0,0
+00012191_001.png,Effusion,1,12191,59,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00012191_001.png,0,0,1,0,0
+00028819_000.png,Cardiomegaly|Mass,0,28819,47,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00028819_000.png,0,0,0,1,0
+00007182_000.png,Atelectasis,0,7182,77,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00007182_000.png,0,1,0,0,0
+00012793_000.png,Cardiomegaly,0,12793,54,M,PA,2834,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_006/images/00012793_000.png,0,0,0,1,0
+00010905_001.png,Consolidation|Infiltration,1,10905,51,M,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_005/images/00010905_001.png,0,0,0,0,1
+00028782_000.png,Cardiomegaly|Mass,0,28782,82,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00028782_000.png,0,0,0,1,0
+00027470_007.png,Atelectasis,7,27470,67,M,PA,2021,2021,0.194311,0.194311,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027470_007.png,0,1,0,0,0
+00001803_010.png,Atelectasis,10,1803,58,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00001803_010.png,0,1,0,0,0
+00005179_005.png,Consolidation,5,5179,62,F,AP,2500,2048,0.171,0.171,,['Consolidation'],1,Consolidation,data/nih/images_003/images/00005179_005.png,0,0,0,0,1
+00017325_007.png,Consolidation|Nodule|Pneumothorax,7,17325,66,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_008/images/00017325_007.png,0,0,0,0,1
+00021982_003.png,Atelectasis,3,21982,69,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021982_003.png,0,1,0,0,0
+00027729_001.png,Atelectasis,1,27729,70,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00027729_001.png,0,1,0,0,0
+00012687_007.png,Atelectasis|Emphysema|Infiltration|Pneumothorax,7,12687,63,F,PA,2606,2965,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_006/images/00012687_007.png,0,1,0,0,0
+00029285_000.png,Cardiomegaly,0,29285,65,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00029285_000.png,0,0,0,1,0
+00003369_011.png,Effusion,11,3369,50,F,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00003369_011.png,0,0,1,0,0
+00029807_004.png,Atelectasis|Emphysema|Pneumothorax,4,29807,63,M,PA,2021,2021,0.194308,0.194308,,['Atelectasis'],1,Atelectasis,data/nih/images_012/images/00029807_004.png,0,1,0,0,0
+00015567_001.png,Cardiomegaly|Infiltration,1,15567,51,F,PA,2526,2849,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015567_001.png,0,0,0,1,0
+00012735_000.png,Consolidation,0,12735,32,F,PA,2992,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_006/images/00012735_000.png,0,0,0,0,1
+00013052_004.png,Edema,4,13052,41,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_006/images/00013052_004.png,1,0,0,0,0
+00000284_004.png,Cardiomegaly|Hernia,4,284,84,F,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_001/images/00000284_004.png,0,0,0,1,0
+00001320_003.png,Atelectasis,3,1320,48,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_001/images/00001320_003.png,0,1,0,0,0
+00008324_000.png,Effusion|Mass,0,8324,54,F,PA,2048,2500,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00008324_000.png,0,0,1,0,0
+00028150_001.png,Atelectasis|Pneumothorax,1,28150,68,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00028150_001.png,0,1,0,0,0
+00017835_023.png,Atelectasis,23,17835,48,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00017835_023.png,0,1,0,0,0
+00014532_000.png,Atelectasis,0,14532,65,F,PA,2698,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00014532_000.png,0,1,0,0,0
+00010448_000.png,Cardiomegaly,0,10448,23,M,PA,2662,2753,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_005/images/00010448_000.png,0,0,0,1,0
+00018721_014.png,Atelectasis|Infiltration,14,18721,42,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018721_014.png,0,1,0,0,0
+00007654_000.png,Cardiomegaly,0,7654,50,M,PA,3056,2544,0.139,0.139,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_004/images/00007654_000.png,0,0,0,1,0
+00009534_000.png,Atelectasis,0,9534,39,F,PA,2702,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00009534_000.png,0,1,0,0,0
+00020968_000.png,Cardiomegaly,0,20968,56,M,PA,2886,2707,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_010/images/00020968_000.png,0,0,0,1,0
+00013060_002.png,Edema|Infiltration,2,13060,59,F,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_006/images/00013060_002.png,1,0,0,0,0
+00003552_003.png,Cardiomegaly,3,3552,28,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_002/images/00003552_003.png,0,0,0,1,0
+00016233_000.png,Effusion|Infiltration,0,16233,67,M,PA,2992,2897,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_008/images/00016233_000.png,0,0,1,0,0
+00025379_002.png,Atelectasis|Infiltration,2,25379,69,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_011/images/00025379_002.png,0,1,0,0,0
+00021693_000.png,Consolidation,0,21693,60,M,PA,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021693_000.png,0,0,0,0,1
+00009576_001.png,Atelectasis,1,9576,42,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00009576_001.png,0,1,0,0,0
+00030764_000.png,Cardiomegaly,0,30764,36,M,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_012/images/00030764_000.png,0,0,0,1,0
+00008637_000.png,Effusion,0,8637,66,M,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_004/images/00008637_000.png,0,0,1,0,0
+00019756_004.png,Consolidation,4,19756,27,F,PA,2538,2991,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00019756_004.png,0,0,0,0,1
+00019299_015.png,Consolidation,15,19299,59,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00019299_015.png,0,0,0,0,1
+00015180_000.png,Atelectasis,0,15180,30,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00015180_000.png,0,1,0,0,0
+00003390_001.png,Atelectasis,1,3390,50,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_002/images/00003390_001.png,0,1,0,0,0
+00012874_009.png,Effusion,9,12874,61,M,PA,2666,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00012874_009.png,0,0,1,0,0
+00018557_013.png,Atelectasis,13,18557,68,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00018557_013.png,0,1,0,0,0
+00029883_006.png,Edema|Infiltration|Pneumonia,6,29883,63,M,AP,3056,2544,0.139,0.139,,['Edema'],1,Edema,data/nih/images_012/images/00029883_006.png,1,0,0,0,0
+00011156_010.png,Atelectasis,10,11156,62,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_005/images/00011156_010.png,0,1,0,0,0
+00015803_001.png,Cardiomegaly,1,15803,64,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015803_001.png,0,0,0,1,0
+00018000_001.png,Atelectasis,1,18000,46,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00018000_001.png,0,1,0,0,0
+00019463_000.png,Atelectasis|Nodule,0,19463,58,M,PA,2716,2673,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_009/images/00019463_000.png,0,1,0,0,0
+00018204_000.png,Cardiomegaly,0,18204,21,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00018204_000.png,0,0,0,1,0
+00012879_004.png,Effusion|Infiltration,4,12879,63,M,AP,2500,2048,0.168,0.168,,['Effusion'],1,Pleural Effusion,data/nih/images_006/images/00012879_004.png,0,0,1,0,0
+00002728_005.png,Effusion,5,2728,33,F,PA,2992,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_002/images/00002728_005.png,0,0,1,0,0
+00014287_000.png,Cardiomegaly,0,14287,52,F,PA,2048,2500,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00014287_000.png,0,0,0,1,0
+00020588_000.png,Cardiomegaly,0,20588,64,F,PA,2021,2021,0.194311,0.194311,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_009/images/00020588_000.png,0,0,0,1,0
+00025093_007.png,Effusion,7,25093,49,F,AP,3056,2544,0.139,0.139,,['Effusion'],1,Pleural Effusion,data/nih/images_011/images/00025093_007.png,0,0,1,0,0
+00020204_021.png,Effusion,21,20204,35,F,PA,2150,2697,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_009/images/00020204_021.png,0,0,1,0,0
+00018013_000.png,Cardiomegaly,0,18013,69,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_008/images/00018013_000.png,0,0,0,1,0
+00000508_000.png,Consolidation|Fibrosis,0,508,22,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_001/images/00000508_000.png,0,0,0,0,1
+00021670_002.png,Atelectasis,2,21670,41,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021670_002.png,0,1,0,0,0
+00015318_001.png,Atelectasis|Emphysema,1,15318,78,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00015318_001.png,0,1,0,0,0
+00015693_002.png,Cardiomegaly,2,15693,52,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_007/images/00015693_002.png,0,0,0,1,0
+00016305_002.png,Atelectasis|Pneumothorax,2,16305,47,F,AP,2500,2048,0.168,0.168,,['Atelectasis'],1,Atelectasis,data/nih/images_008/images/00016305_002.png,0,1,0,0,0
+00011986_001.png,Edema,1,11986,68,F,PA,2021,2021,0.194311,0.194311,,['Edema'],1,Edema,data/nih/images_006/images/00011986_001.png,1,0,0,0,0
+00019299_012.png,Consolidation,12,19299,59,M,AP,2500,2048,0.168,0.168,,['Consolidation'],1,Consolidation,data/nih/images_009/images/00019299_012.png,0,0,0,0,1
+00008470_003.png,Atelectasis,3,8470,30,F,AP,2500,2048,0.171,0.171,,['Atelectasis'],1,Atelectasis,data/nih/images_004/images/00008470_003.png,0,1,0,0,0
+00021036_001.png,Consolidation,1,21036,39,F,PA,2590,2705,0.143,0.143,,['Consolidation'],1,Consolidation,data/nih/images_010/images/00021036_001.png,0,0,0,0,1
+00015869_002.png,Atelectasis,2,15869,44,F,PA,2610,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_007/images/00015869_002.png,0,1,0,0,0
+00014236_008.png,Edema,8,14236,62,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_007/images/00014236_008.png,1,0,0,0,0
+00019418_005.png,Edema,5,19418,55,M,AP,2500,2048,0.168,0.168,,['Edema'],1,Edema,data/nih/images_009/images/00019418_005.png,1,0,0,0,0
+00005213_000.png,Cardiomegaly,0,5213,58,F,PA,2470,2576,0.143,0.143,,['Cardiomegaly'],1,Cardiomegaly,data/nih/images_003/images/00005213_000.png,0,0,0,1,0
+00021750_013.png,Atelectasis|Pleural_Thickening,13,21750,68,M,PA,2992,2991,0.143,0.143,,['Atelectasis'],1,Atelectasis,data/nih/images_010/images/00021750_013.png,0,1,0,0,0
+00014006_015.png,Effusion,15,14006,46,M,PA,2942,2991,0.143,0.143,,['Effusion'],1,Pleural Effusion,data/nih/images_007/images/00014006_015.png,0,0,1,0,0
+00027410_001.png,Consolidation,1,27410,25,M,AP,3056,2544,0.139,0.139,,['Consolidation'],1,Consolidation,data/nih/images_011/images/00027410_001.png,0,0,0,0,1
